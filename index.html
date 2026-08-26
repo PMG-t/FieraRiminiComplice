@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Basta complicità — Report Fiera BEX Rimini 23-25 Settembre 2026</title>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background: #fff;
+    }
+
+    .layout {
+        display: grid;
+        grid-template-columns: 300px minmax(0, 900px);
+        gap: 48px;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 40px 24px;
+        align-items: start;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 24px;
+        max-height: calc(100vh - 48px);
+        overflow-y: auto;
+        padding-right: 16px;
+    }
+
+    .sidebar h2 {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .sidebar nav {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .sidebar a {
+        display: grid;
+        grid-template-columns: 38px 1fr;
+        gap: 8px;
+        align-items: start;
+
+        padding: 8px 10px;
+        border-radius: 6px;
+
+        color: #444;
+        text-decoration: none;
+
+        font-size: 13px;
+        line-height: 1.35;
+    }
+
+    .sidebar a:hover {
+        background: #f2f2f2;
+        color: #000;
+    }
+
+    .sidebar-score {
+        font-size: 11px;
+        font-weight: bold;
+        color: #777;
+        padding-top: 2px;
+    }
+
+    main {
+        min-width: 0;
+    }
+
+    .document {
+        margin-bottom: 60px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #ddd;
+
+        /* evita che il titolo finisca troppo in alto
+           quando si clicca dalla sidebar */
+        scroll-margin-top: 30px;
+    }
+
+    h1, h2, h3 {
+        line-height: 1.2;
+    }
+
+    pre {
+        background: #f5f5f5;
+        padding: 16px;
+        overflow-x: auto;
+        border-radius: 6px;
+    }
+
+    code {
+        font-family: monospace;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media (max-width: 900px) {
+        .layout {
+            display: block;
+            padding: 20px;
+        }
+
+        .sidebar {
+            position: relative;
+            top: auto;
+            max-height: 300px;
+
+            margin-bottom: 40px;
+            padding: 16px;
+
+            background: #f7f7f7;
+            border-radius: 8px;
+        }
+    }
+
+    @media print {
+        .sidebar {
+            display: none;
+        }
+
+        .layout {
+            display: block;
+            max-width: none;
+            padding: 0;
+        }
+
+        main {
+            max-width: none;
+        }
+
+        .document {
+            page-break-after: always;
+            border-bottom: none;
+        }
+
+        .document:last-child {
+            page-break-after: auto;
+        }
+    }
+
+    .document-header {
+        max-width: 1280px;
+        margin: 40px auto 0;
+        padding: 0 24px;
+    }
+
+    .document-header h1 {
+        margin: 0;
+        font-size: 42px;
+        line-height: 1.1;
+    }
+</style>
+
+</head>
+<body>
+<header class="document-header">
+    <h2>Basta complicità — Report Fiera BEX Rimini 23-25 Settembre 2026</h2>
+</header>
+
+<div class="layout">
+
+    <aside class="sidebar">
+        <h2>Indice</h2>
+        <nav>
+            <a href="#aeronautica-militare-comunicato-informativo-0"><span class="sidebar-score">5/5</span><span>Aeronautica Militare - Comunicato Informativo</span></a><a href="#engineering-ingegneria-informatica-e-israele-comunicato-informativo-1"><span class="sidebar-score">5/5</span><span>Engineering Ingegneria Informatica e Israele: comunicato informativo</span></a><a href="#mapsat-dentro-la-filiera-israeliana-della-space-intelligence-2"><span class="sidebar-score">5/5</span><span>MAPSAT: dentro la filiera israeliana della space intelligence</span></a><a href="#rohde-schwarz-e-lindustria-israeliana-della-difesa-3"><span class="sidebar-score">5/5</span><span>Rohde & Schwarz e l'industria israeliana della difesa</span></a><a href="#serco-italia-comunicato-informativo-4"><span class="sidebar-score">5/5</span><span>Serco Italia - Comunicato Informativo</span></a><a href="#telespazio-comunicato-informativo-5"><span class="sidebar-score">5/5</span><span>Telespazio - Comunicato Informativo</span></a><a href="#aiviewgroup-6"><span class="sidebar-score">4/5</span><span>AiviewGroup</span></a><a href="#anser-comunicato-informativo-7"><span class="sidebar-score">4/5</span><span>ANSER – Comunicato informativo</span></a><a href="#asi-agenzia-spaziale-italiana-e-la-cooperazione-tecnologica-con-israele-8"><span class="sidebar-score">4/5</span><span>ASI – Agenzia Spaziale Italiana e la cooperazione tecnologica con Israele</span></a><a href="#cetma-e-linnovazione-aerospaziale-con-partner-israeliani-9"><span class="sidebar-score">4/5</span><span>CETMA e l'innovazione aerospaziale con partner israeliani</span></a><a href="#cluster-exploore-aerospace-marche-e-israele-comunicato-informativo-10"><span class="sidebar-score">4/5</span><span>Cluster Exploore – Aerospace Marche e Israele: comunicato informativo</span></a><a href="#ctna-comunicato-informativo-11"><span class="sidebar-score">4/5</span><span>CTNA - Comunicato informativo</span></a><a href="#dap-e-la-filiera-aerospaziale-israeliana-12"><span class="sidebar-score">4/5</span><span>DAP e la filiera aerospaziale israeliana</span></a><a href="#distretto-tecnologico-aerospaziale-della-campania-13"><span class="sidebar-score">4/5</span><span>Distretto Tecnologico Aerospaziale della Campania</span></a><a href="#dtm-e-i-due-archi-della-filiera-della-difesa-israeliana-14"><span class="sidebar-score">4/5</span><span>DTM e i due archi della filiera della difesa israeliana</span></a><a href="#ey-ernst-young-e-i-rapporti-con-lindustria-della-difesa-israeliana-15"><span class="sidebar-score">4/5</span><span>EY – Ernst & Young e i rapporti con l'industria della difesa israeliana</span></a><a href="#fondazione-aldini-valeriani-leonardo-e-il-collegamento-con-la-difesa-israeliana-16"><span class="sidebar-score">4/5</span><span>Fondazione Aldini Valeriani, Leonardo e il collegamento con la difesa israeliana</span></a><a href="#guardia-di-finanza-17"><span class="sidebar-score">4/5</span><span>Guardia di Finanza</span></a><a href="#lombardia-aerospace-cluster-comunicato-informativo-18"><span class="sidebar-score">4/5</span><span>Lombardia Aerospace Cluster - Comunicato Informativo</span></a><a href="#npc-spacemind-e-i-legami-con-la-difesa-israeliana-19"><span class="sidebar-score">4/5</span><span>NPC Spacemind e i legami con la difesa israeliana</span></a><a href="#nv5-e-la-sorveglianza-geospaziale-la-catena-israeliana-20"><span class="sidebar-score">4/5</span><span>NV5 e la sorveglianza geospaziale: la catena israeliana</span></a><a href="#ohb-italia-comunicato-informativo-21"><span class="sidebar-score">4/5</span><span>OHB Italia - Comunicato Informativo</span></a><a href="#planetek-italia-e-il-collegamento-tecnologico-con-israele-22"><span class="sidebar-score">4/5</span><span>Planetek Italia e il collegamento tecnologico con Israele</span></a><a href="#regione-campania-comunicato-informativo-23"><span class="sidebar-score">4/5</span><span>Regione Campania – Comunicato informativo</span></a><a href="#emilia-romagna-sorveglianza-subacquea-e-il-partner-israeliano-24"><span class="sidebar-score">4/5</span><span>Emilia-Romagna: sorveglianza subacquea e il partner israeliano</span></a><a href="#regione-friuli-venezia-giulia-25"><span class="sidebar-score">4/5</span><span>Regione Friuli Venezia Giulia</span></a><a href="#san-marino-il-gigante-invisibile-della-cybersecurity-26"><span class="sidebar-score">4/5</span><span>San Marino: il gigante invisibile della cybersecurity</span></a><a href="#rgm-space-e-la-filiera-della-difesa-israeliana-27"><span class="sidebar-score">4/5</span><span>RGM Space e la filiera della difesa israeliana</span></a><a href="#sam-società-aerospaziale-mediterranea-28"><span class="sidebar-score">4/5</span><span>SAM – Società Aerospaziale Mediterranea</span></a><a href="#sideius-comunicato-informativo-29"><span class="sidebar-score">4/5</span><span>Sideius – Comunicato informativo</span></a><a href="#sitael-30"><span class="sidebar-score">4/5</span><span>SITAEL</span></a><a href="#t3lab-technology-transfer-team-31"><span class="sidebar-score">4/5</span><span>T3LAB – Technology Transfer Team</span></a><a href="#thales-alenia-space-italia-e-la-filiera-spazio-militare-italiano-israeliana-32"><span class="sidebar-score">4/5</span><span>Thales Alenia Space Italia e la filiera spazio-militare italiano-israeliana</span></a><a href="#abzero-e-lindustria-dei-droni-israeliana-33"><span class="sidebar-score">3/5</span><span>ABzero e l'industria dei droni israeliana</span></a><a href="#aerohub-clust-er-mech-e-israele-cosa-emerge-34"><span class="sidebar-score">3/5</span><span>AeroHUB – Clust-ER Mech e Israele: cosa emerge</span></a><a href="#altec-e-israele-comunicato-informativo-35"><span class="sidebar-score">3/5</span><span>ALTEC e Israele: comunicato informativo</span></a><a href="#argotec-la-difesa-italiana-e-il-collegamento-con-iai-attraverso-i-satelliti-36"><span class="sidebar-score">3/5</span><span>Argotec, la difesa italiana e il collegamento con IAI attraverso i satelliti</span></a><a href="#avs-added-value-solutions-e-la-filiera-spazio-difesa-europea-37"><span class="sidebar-score">3/5</span><span>AVS – Added Value Solutions e la filiera spazio-difesa europea</span></a><a href="#axiom-space-e-lecosistema-spaziale-israeliano-38"><span class="sidebar-score">3/5</span><span>Axiom Space e l'ecosistema spaziale israeliano</span></a><a href="#celeste-technologies-comunicato-informativo-39"><span class="sidebar-score">3/5</span><span>Celeste Technologies - Comunicato informativo</span></a><a href="#d-orbit-e-israele-cosa-emerge-40"><span class="sidebar-score">3/5</span><span>D-Orbit e Israele: cosa emerge</span></a><a href="#dallara-automobili-e-la-filiera-della-difesa-41"><span class="sidebar-score">3/5</span><span>Dallara Automobili e la filiera della difesa</span></a><a href="#ecoaida-e-le-tecnologie-di-protezione-biologica-nella-filiera-difensiva-italiana-42"><span class="sidebar-score">3/5</span><span>EcoAida e le tecnologie di protezione biologica nella filiera difensiva italiana</span></a><a href="#egicon-comunicato-informativo-43"><span class="sidebar-score">3/5</span><span>Egicon – Comunicato informativo</span></a><a href="#enea-comunicato-informativo-44"><span class="sidebar-score">3/5</span><span>ENEA – Comunicato informativo</span></a><a href="#fabbrica-italiana-droni-e-israele-comunicato-informativo-45"><span class="sidebar-score">3/5</span><span>Fabbrica Italiana Droni e Israele: comunicato informativo</span></a><a href="#fondazione-democenter-sipe-e-lecosistema-aerospaziale-israeliano-46"><span class="sidebar-score">3/5</span><span>Fondazione Democenter-Sipe e l'ecosistema aerospaziale israeliano</span></a><a href="#fondazione-e-amaldi-e-laccesso-al-mercato-israeliano-della-difesa-47"><span class="sidebar-score">3/5</span><span>Fondazione E. Amaldi e l'accesso al mercato israeliano della difesa</span></a><a href="#gter-e-israele-comunicato-informativo-48"><span class="sidebar-score">3/5</span><span>GTER e Israele: comunicato informativo</span></a><a href="#legor-group-e-la-tecnologia-israeliana-per-componenti-critici-49"><span class="sidebar-score">3/5</span><span>Legor Group e la tecnologia israeliana per componenti critici</span></a><a href="#merletti-aerospace-50"><span class="sidebar-score">3/5</span><span>Merletti Aerospace</span></a><a href="#miprons-comunicato-informativo-51"><span class="sidebar-score">3/5</span><span>MIPRONS - Comunicato informativo</span></a><a href="#nemea-sistemi-e-israele-cosa-emerge-52"><span class="sidebar-score">3/5</span><span>Nemea Sistemi e Israele: cosa emerge</span></a><a href="#novac-accumulo-energetico-e-il-ponte-verso-lindustria-israeliana-della-difesa-53"><span class="sidebar-score">3/5</span><span>Novac: accumulo energetico e il ponte verso l'industria israeliana della difesa</span></a><a href="#pradelli-giancarlo-c-e-la-filiera-di-leonardo-verso-israele-54"><span class="sidebar-score">3/5</span><span>Pradelli Giancarlo & C. e la filiera di Leonardo verso Israele</span></a><a href="#roboverse-reply-comunicato-informativo-55"><span class="sidebar-score">3/5</span><span>Roboverse Reply - Comunicato informativo</span></a><a href="#serinar-tecnopolo-di-forlì-cesena-56"><span class="sidebar-score">3/5</span><span>Ser.In.Ar. – Tecnopolo di Forlì-Cesena</span></a><a href="#spaceflux-comunicato-informativo-57"><span class="sidebar-score">3/5</span><span>Spaceflux - Comunicato informativo</span></a><a href="#storm-reply-58"><span class="sidebar-score">3/5</span><span>Storm Reply</span></a><a href="#ariespace-osservazione-della-terra-e-la-collaborazione-bilaterale-con-israele-59"><span class="sidebar-score">2/5</span><span>Ariespace: osservazione della Terra e la collaborazione bilaterale con Israele</span></a><a href="#concept-reply-lintelligenza-artificiale-e-il-collegamento-transitivo-con-la-difesa-israeliana-60"><span class="sidebar-score">2/5</span><span>Concept Reply, l'intelligenza artificiale e il collegamento transitivo con la difesa israeliana</span></a><a href="#dast-droni-commerciali-e-il-collegamento-indiretto-con-lidf-61"><span class="sidebar-score">2/5</span><span>DAST: droni commerciali e il collegamento indiretto con l'IDF</span></a><a href="#gvm-assistance-e-israele-cosa-emerge-62"><span class="sidebar-score">2/5</span><span>GVM Assistance e Israele: cosa emerge</span></a><a href="#inaf-e-la-ricerca-spaziale-attraverso-partner-israeliani-collegati-alla-difesa-63"><span class="sidebar-score">2/5</span><span>INAF e la ricerca spaziale attraverso partner israeliani collegati alla difesa</span></a><a href="#latitudo-40-e-israele-cosa-emerge-64"><span class="sidebar-score">2/5</span><span>Latitudo 40 e Israele: cosa emerge</span></a><a href="#tss-innovationsprojekte-e-la-catena-di-approvvigionamento-difensiva-65"><span class="sidebar-score">2/5</span><span>TSS Innovationsprojekte e la catena di approvvigionamento difensiva</span></a><a href="#hera-e-i-rapporti-commerciali-con-lindustria-israeliana-66"><span class="sidebar-score">1/5</span><span>Hera e i rapporti commerciali con l'industria israeliana</span></a>
+        </nav>
+    </aside>
+
+    <main>
+        
+    <section class="document" id="aeronautica-militare-comunicato-informativo-0">
+        <h1>Aeronautica Militare - Comunicato Informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 5/5</strong></p>
+<p>Leonardo ha venduto 30 jet da addestramento M-346 all'aeronautica militare israeliana (IAF), in un rapporto che va oltre la semplice vendita. Oltre ai velivoli, Leonardo fornisce manutenzione, pezzi di ricambio, simulatori e addestramento per i piloti, con supporto tecnico garantito per circa 20 anni.</p>
+<p>Ma il legame tecnologico è più profondo. Nel 2022 Leonardo ha acquisito RADA, un'azienda israeliana specializzata in radar tattici — sistemi usati per rilevare e tracciare bersagli durante le operazioni militari. RADA ha integrato i suoi radar (CHR) in Iron Fist, un sistema di protezione attiva che scherma i carri armati dai missili anticarro.</p>
+<p>Questo sistema di protezione è stato selezionato dal Ministero della Difesa israeliano per equipaggiare gli Eitan, carri da trasporto blindati usati dalle Forze Armate israeliane, e i bulldozer D9, usati per demolizioni e bonifiche in zone di operazione. Il collegamento è trasversale: Leonardo — attraverso RADA e i suoi radar — fornisce tecnologie che permettono ai mezzi israeliani di proteggersi sotto fuoco.</p>
+<p>Leonardo emerge dunque come attore stabilmente inserito nell'ecosistema industriale e tecnologico della difesa israeliana, attraverso relazioni societarie dirette e filiere tecnologiche consolidate.</p>
+<p>Non è invece documentato che Leonardo abbia fornito specifici componenti usati in singole operazioni a Gaza.</p>
+    </section>
+    
+    <section class="document" id="engineering-ingegneria-informatica-e-israele-comunicato-informativo-1">
+        <h1>Engineering Ingegneria Informatica e Israele: comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 5/5</strong></p>
+<p>Engineering Ingegneria Informatica è una società italiana di informatica e sicurezza che lavora su sistemi di comando e controllo, analisi dei dati, intelligence e cybersecurity. Tra il 2018 e il 2022 ha ricevuto quasi 864.000 euro di finanziamenti europei per programmi di ricerca che coinvolgono direttamente soggetti israeliani della sicurezza.</p>
+<p>Nel progetto PREVENT, finanziato dall'Unione Europea, Engineering ha collaborato con il Ministry of Public Security e la Polizia israeliana su tecnologie di rilevamento, tracciamento e prevenzione del terrorismo nel trasporto pubblico. Nel progetto ANDROMEDA ha lavorato con gli stessi partner su sistemi di comando e controllo per lo scambio informativo alle frontiere, coinvolgendo anche ministeri europei della Difesa. Nel progetto CONNEXIONs ha operato con Motorola Solutions Israel, società israeliana specializzata in soluzioni per la sicurezza e le comunicazioni.</p>
+<p>Le attività descritte non erano generiche: riguardavano sistemi operativi di sicurezza interna, sorveglianza delle frontiere e counter-terrorism. Tuttavia, il dossier non documenta un rapporto diretto di Engineering con l'Esercito o il Ministero della Difesa israeliano, né una partecipazione a operazioni militari specifiche.</p>
+    </section>
+    
+    <section class="document" id="mapsat-dentro-la-filiera-israeliana-della-space-intelligence-2">
+        <h1>MAPSAT: dentro la filiera israeliana della space intelligence</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 5/5</strong></p>
+<p>MAPSAT è stata tecnologicamente integrata nella rete della space intelligence israeliana dal 2015, quando installò a Benevento una Ground Station, cioè un'infrastruttura per ricevere direttamente le immagini dal satellite e coordinarsi con chi le produce. Partner principale è ImageSat International, società israeliana specializzata in earth observation, la raccolta di immagini satellitari ad alta risoluzione per usi civili e militari.</p>
+<p>MAPSAT poteva tasking il satellite EROS-B, cioè ordinare specifiche acquisizioni fotografiche e riceverle in tempo reale. EROS-B è classificato da ImageSat come military-grade, equipaggiato con sensori ad altissima risoluzione utili per identificare obiettivi in ambito militare. Le immagini elaborate da MAPSAT fornivano servizi di sorveglianza e intelligence geografica.</p>
+<p>ImageSat è inserita dal Ministero della Difesa israeliano nell'ecosistema Defence/Homeland/Cyber. Inoltre, IAI (Israel Aerospace Industries, l'agenzia statale israeliana per l'aerospazio e la difesa) detiene circa il 31% di ImageSat, il che significa che la società è strutturalmente legata all'apparato militare-industriale dello Stato.</p>
+<p>MAPSAT non è un semplice acquirente di immagini pubbliche, ma un nodo operativo integrato nella catena di space intelligence israeliana. Il satellite EROS-B è rientrato a febbraio 2026, per cui l'infrastruttura odierna rimane irrisolta. Non è documentato l'impiego specifico di acquisizioni MAPSAT in operazioni militari.</p>
+    </section>
+    
+    <section class="document" id="rohde-schwarz-e-lindustria-israeliana-della-difesa-3">
+        <h1>Rohde &amp; Schwarz e l'industria israeliana della difesa</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 5/5</strong></p>
+<p>Rohde &amp; Schwarz, multinazionale tedesca di telecomunicazioni e strumentazione, opera in Italia attraverso Rohde &amp; Schwarz Italia S.p.A. Nel 2022, il gruppo ha fondato <strong>Rohde &amp; Schwarz Israel Ltd.</strong>, una controllata con laboratorio e strutture di circa 800 metri quadrati, che gestisce clienti strategici nel settore della difesa israeliana.</p>
+<p>La controllata israeliana del gruppo identifica come account principali il Ministero della Difesa israeliano, IAI (Israeli Aircraft Industries — costruttore di droni e sistemi di difesa), Rafael (specializzata in sistemi d'arma e tecnologie di lancio) ed Elbit (elettronica difensiva e sistemi di sorveglianza). Si tratta di attori centrali nell'apparato militare israeliano: IAI fornisce droni da ricognizione e attacco; Rafael produce missili, sistemi di difesa aerea e tecnologie di targeting; Elbit fornisce sistemi di visione notturna, radar e sistemi di comando e controllo.</p>
+<p>Il collegamento di Rohde &amp; Schwarz a questi partner è <strong>indiretto ma strutturale</strong>: il gruppo non fornisce armi direttamente, ma tecnologie di misurazione, controllo e comunicazione usate in ambito militare. In particolare, il gruppo documenta un contratto per il sistema <strong>QPS201</strong> — scanner di sicurezza a onde millimetriche che rileva oggetti occultati — operativo presso la Israel Airports Authority e già in uso al valico di Allenby in Cisgiordania, un'infrastruttura di controllo israeliana in territorio occupato.</p>
+<p>Questa relazione riflette una <strong>filiera economico-industriale continuativa</strong> tra il gruppo tedesco e la base industriale della difesa israeliana. Non è documentata una fornitura diretta della filiale italiana Rohde &amp; Schwarz Italia S.p.A. a Israele, né partecipazione a operazioni specifiche. Il legame rimane tuttavia significativo dal punto di vista tecnologico e strategico.</p>
+    </section>
+    
+    <section class="document" id="serco-italia-comunicato-informativo-4">
+        <h1>Serco Italia - Comunicato Informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 5/5</strong></p>
+<p>Serco Group, azienda britannica che gestisce servizi critici in molti Paesi, ha una divisione australiana che dal 2018 sostiene il funzionamento di sistemi d'arma navali sviluppati da Rafael, grande impresa israeliana della difesa. Questi sistemi — chiamati Typhoon, Mini-Typhoon e Toplite — sono torrette armate remote utilizzate dalla Marina israeliana su navi militari per il controllo delle acque e le operazioni di difesa.</p>
+<p>Nel 2025 Serco Holdings ha costituito con Elbit Systems UK una società in comune al 50%, Team X Defence, rivolta al mercato della difesa. Elbit Systems è una delle principali aziende israeliane della difesa, contrattualizzata dal Ministero della Difesa israeliano per sistemi di raccolta e elaborazione dati militari — tecnologie usate per raccogliere informazioni, sorvegliare aree e obiettivi, e integrarli nei comandi e controlli delle Forze Armate.</p>
+<p>Il coinvolgimento di Serco è documentato su due binari: mantenimento operativo dei sistemi navali israeliani e partecipazione proprietaria in una joint venture con un'impresa centrale della difesa israeliana. Il collegamento è transitivo: Serco supporta sistemi utilizzati dall'apparato militare israeliano, ma attraverso una catena di intermediari.</p>
+<p>Non è provato un coinvolgimento diretto di Serco Italia in specifiche operazioni israeliane, né è documentata alcuna responsabilità della filiale italiana nei rapporti con Israele.</p>
+    </section>
+    
+    <section class="document" id="telespazio-comunicato-informativo-5">
+        <h1>Telespazio - Comunicato Informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 5/5</strong></p>
+<p>Telespazio, società italiana dello spazio, è stata capocommessa di OPTSAT-3000, satellite militare costruito insieme a Israel Aerospace Industries (IAI), che ha realizzato circa 182 milioni di dollari di componenti. IAI è uno dei principali architetti dello spazio militare israeliano. I satelliti Ofek, sviluppati da IAI, sono stati trasferiti all'Unit 9900 dell'IDF — il reparto specializzato delle Forze Armate israeliane nella raccolta di intelligence dalle orbite.</p>
+<p>Inoltre, Telespazio controlla l'80% di e-GEOS, società di space-based intelligence. Nel 2021 e-GEOS ha stretto partnership con ImageSat International (ISI), azienda israeliana. Insieme, utilizzano satelliti italiani (COSMO-SkyMed) e satelliti israeliani (EROS) per vendere immagini ad alta risoluzione a clienti nel settore Difesa e Intelligence.</p>
+<p>Il collegamento è documentato: Telespazio realizza infrastrutture spaziali con partner israeliani, e queste infrastrutture vengono impiegate in programmi militari e di intelligence israeliani. Il rapporto è transitivo — non diretto: Telespazio vende una capacità tecnologica, sapendo che verrà usata in ambito militare israeliano.</p>
+<p>Non è provato che Telespazio abbia ceduto dati specifici usati in operazioni israeliane concrete.</p>
+    </section>
+    
+    <section class="document" id="aiviewgroup-6">
+        <h1>AiviewGroup</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>AiviewGroup è una società italiana che sviluppa tecnologie per la sorveglianza, il controllo dei droni e l'ispezione in spazi confinati. Dal 2021, la sua filiale Flyability ha una partnership con GIV Solutions, distributore autorizzato in Israele. GIV utilizza i droni Elios di Flyability — piccoli robot aerei capaci di ispezionare ambienti difficili come impianti industriali e infrastrutture critiche — presso la Israel National Police Academy e l'IDF Training City.</p>
+<p>GIV Solutions è quindi un partner israeliano che opera direttamente nell'ecosistema istituzionale di sicurezza e difesa. Tuttavia, non è provato che i droni Elios siano effettivamente stati impiegati presso questi clienti: il collegamento rimane documentato a livello commerciale, non operativo.</p>
+<p>Parallelamente, AiviewGroup commercializza Dedrone, un sistema che rileva, traccia e contrasta i droni non autorizzati — tecnologia utilizzata da governi e militari per proteggere infrastrutture critiche e zone protette. AiviewGroup fornisce inoltre Delair, con applicazioni documentate nella difesa.</p>
+<p>La catena di coinvolgimento è: AiviewGroup → Flyability → GIV Solutions → strutture israeliane. Non è documentato un accordo diretto tra AiviewGroup e l'apparato militare israeliano, né un impiego specifico delle tecnologie in operazioni militari. Il rapporto è prevalentemente di filiera commerciale.</p>
+    </section>
+    
+    <section class="document" id="anser-comunicato-informativo-7">
+        <h1>ANSER – Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>ANSER, la principale aggregazione di aziende aerospaziali dell'Emilia-Romagna, non ha contratti diretti con l'apparato militare israeliano. Tuttavia, al suo interno è presente NPC SpaceMind, una impresa spaziale che nel 2021 ha partecipato a un progetto di ricerca e sviluppo finanziato dal governo italiano con Elbit Systems, la più grande azienda israeliana della difesa.</p>
+<p>Elbit è direttamente integrata negli eserciti e nei ministeri della Difesa israeliani. Produce armi guidate, sistemi di comunicazione e controllo militare (C4ISR), tecnologie di guerra elettronica, e componenti critici per i caccia F-35. In parallelo, NPC SpaceMind partecipa a IDRA, un programma militare italiano che sviluppa una costellazione di satelliti capaci di intercettare segnali, disturbare comunicazioni nemiche e operazioni di guerra elettronica.</p>
+<p>La relazione tra ANSER e l'apparato militare israeliano è quindi indiretta ma significativa: ANSER contiene un membro che collabora in ricerca e sviluppo diretto con una delle principali aziende della difesa israeliana, all'interno di un contesto dove entrambi i partner gestiscono tecnologie militari sensibili.</p>
+<p>Nel 2022, ANSER ha inoltre partecipato a missioni commerciali a Tel Aviv orientate a rafforzare i rapporti con l'industria della difesa israeliana, confermando un orientamento strategico verso questo mercato.</p>
+<p>La documentazione non prova che tecnologie o soldi di ANSER abbiano finanziato operazioni militari israeliane specifiche, né coinvolgimento diretto negli eserciti israeliani. Tuttavia, il legame con Elbit attraverso ricerca e sviluppo condivisa rappresenta un collegamento concreto verso il cuore dell'apparato difensivo israeliano.</p>
+    </section>
+    
+    <section class="document" id="asi-agenzia-spaziale-italiana-e-la-cooperazione-tecnologica-con-israele-8">
+        <h1>ASI – Agenzia Spaziale Italiana e la cooperazione tecnologica con Israele</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>L'Agenzia Spaziale Italiana ha realizzato il programma SHALOM in cooperazione con l'Agenzia Spaziale Israeliana (ISA), una missione congiunta dedicata all'osservazione iperspettrale della Terra per scopi civili e di ricerca. Nel progetto hanno avuto ruoli tecnici centrali IAI-MBT ed Elbit-ElOp, divisioni di IAI (Israel Aerospace Industries) ed Elbit Systems, le principali aziende israeliane dell'aerospazio e della difesa.</p>
+<p>La piattaforma satellitare di SHALOM è stata sviluppata come evoluzione diretta di OPTSAT-3000, un satellite militare realizzato da IAI per il Ministero della Difesa italiano. OPTSAT è dotato di sensori ottici ad altissima risoluzione per osservazione strategica, ricognizione e applicazioni di difesa e sicurezza. Questo trasferimento tecnologico documenta una continuità diretta tra programmi civili e capacità militari.</p>
+<p>ASI ha inoltre cooperato con Israele nel progetto DIDO-3, che ha prodotto una micro-laboratorio spaziale di SpacePharma, azienda israeliana di biotecnologie spaziali, confermando rapporti industriali ripetuti. Nel febbraio 2025, ASI ha sottoscritto un nuovo protocollo di cooperazione con ISA (Beresheet 2), mantenendo la continuità della collaborazione dopo il 7 ottobre 2023.</p>
+<p>ASI non risulta fornitore diretto dell'IDF o del Ministero della Difesa israeliano. È però inserita in una filiera tecnologico-industriale stabile che coinvolge aziende israeliane della difesa e che produce capacità di osservazione militare.</p>
+    </section>
+    
+    <section class="document" id="cetma-e-linnovazione-aerospaziale-con-partner-israeliani-9">
+        <h1>CETMA e l'innovazione aerospaziale con partner israeliani</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>CETMA, centro di ricerca europeo, ha partecipato al programma KYKLOS 4.0 dell'Unione Europea, dedicato alle tecnologie di produzione avanzata. Nel progetto ha ricevuto 632.500 euro e ha lavorato direttamente con Kanfit3D, azienda aerospaziale israeliana, su processi di stampa 3D (produzione additiva) di componenti per l'aerospazio.</p>
+<p>Kanfit opera nella produzione di componenti per l'industria aerospaziale e della difesa ed è fornitore certificato del Ministero della Difesa israeliano, dell'Aeronautica militare israeliana (Israel Air Force), di IAI (Israel Aerospace Industries), di Elbit Systems e di Rafael, il principale gruppo israeliano della difesa. Rafael, che detiene il 50% di Kanfit, ha dichiarato che questa acquisizione era finalizzata a rafforzare le capacità produttive nei materiali compositi.</p>
+<p>La stampa 3D di componenti aerospaziali è una tecnologia critica per la produzione rapida e efficiente di parti per droni, missili, sensori e sistemi di difesa. CETMA non risulta fornitore diretto dell'apparato militare israeliano, ma ha contribuito a un ecosistema europeo di ricerca e innovazione che trasferisce competenze e capacità produttive a un partner aerospaziale inserito nella filiera della difesa israeliana.</p>
+<p>Il coinvolgimento è economico e tecnologico, con collegamento strutturale alle capacità industriali dell'apparato militare.</p>
+    </section>
+    
+    <section class="document" id="cluster-exploore-aerospace-marche-e-israele-comunicato-informativo-10">
+        <h1>Cluster Exploore – Aerospace Marche e Israele: comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Cluster Exploore è una rete di imprese dell'aerospazio e della difesa che opera principalmente nel settore civile. Non ha rapporti diretti documentati con partner militari israeliani, ma la sua collocazione industriale la espone, in modo transitivo, a connessioni significative con la difesa di Israele.</p>
+<p>GEM Elettronica, fondatrice di Exploore, è stata acquisita completamente da Leonardo nel 2026. Leonardo mantiene un contratto pluriennale di supporto per la flotta di aerei da addestramento M-346 dell'Aeronautica militare israeliana, fornendo servizi logistici attraverso Elbit Systems, società israeliana della difesa. Si tratta di supporto al ciclo di vita di una flotta militare operativa, quindi una connessione industriale concreta con capacità di difesa israeliana.</p>
+<p>Un altro membro della rete, Civitanavi Systems, è stato acquisito da Honeywell nel 2024. Honeywell collabora con IAI, grande società israeliana della difesa, su sistemi di navigazione militare resistenti ai disturbi elettronici (GPS anti-jamming), tecnologia critica per operazioni in ambienti ostili.</p>
+<p>Il dossier non consente però di attribuire al cluster Exploore un beneficio economico o un contributo tecnologico diretto a questi contratti.</p>
+    </section>
+    
+    <section class="document" id="ctna-comunicato-informativo-11">
+        <h1>CTNA - Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Il Cluster nazionale CTNA coordina la filiera italiana dell'aerospazio e della difesa. Tra i suoi soci figura Leonardo, grande costruttore aerospaziale italiano, che mantiene una relazione strutturata con l'industria della difesa israeliana. Leonardo ha fornito 30 velivoli M-346 all'Aeronautica israeliana: si tratta di aerei da addestramento che preparano i piloti al passaggio verso caccia più sofisticati (F-16, F-35). Il supporto logistico di questa flotta è gestito in collaborazione con Elbit Systems, grande azienda israeliana specializzata in sistemi di difesa e avionica, con un contratto documentato di 22 anni.</p>
+<p>Nel 2026, Elbit Systems ha ricevuto dal Ministero della Difesa israeliano un contratto di oltre 34 milioni di dollari per tecnologie di autonomia estesa applicate ai caccia F-35I (la versione israeliana dell'F-35). Il collegamento è quindi con una capacità militare operativa, non con una specifica operazione.</p>
+<p>Il coinvolgimento del CTNA è di natura transitiva e di filiera: il cluster non ha rapporti contrattuali diretti con l'apparato militare israeliano, ma la struttura di coordinamento ospita operatori — come Leonardo — che mantengono rapporti continuativi e strutturati con partner della difesa israeliana. Non è documentato che il CTNA finanzi o gestisca direttamente questi rapporti. Anche Telespazio, controllata da Leonardo, è stata contraente principale per OPTSAT-3000, satellite della difesa italiana costruito in collaborazione con IAI, principale azienda aerospaziale israeliana.</p>
+<p>È dunque documentata una rete industriale italiana connessa continuativamente a partner della difesa israeliana, ma il ruolo e la responsabilità del CTNA stesso rimangono non risolti.</p>
+    </section>
+    
+    <section class="document" id="dap-e-la-filiera-aerospaziale-israeliana-12">
+        <h1>DAP e la filiera aerospaziale israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Il DAP — Distretto Aerospaziale Piemonte — non è un'azienda singola, bensì un'aggregazione di imprese industriali. Malgrado ciò, la filiera che lo caratterizza mantiene rapporti strutturati e pluriennali con la difesa israeliana, principalmente attraverso i suoi maggiori membri: Leonardo, Thales Alenia Space e Telespazio.</p>
+<p>Tra gli anni 2000 e il 2026, queste imprese hanno fornito tecnologie critiche all'industria israeliana della difesa. Leonardo ha consegnato 30 aerei M-346 all'Aeronautica israeliana — velivoli per addestramento militare avanzato, utilizzati direttamente per la preparazione dei piloti militari. Telespazio ha sviluppato con IAI (Israel Aerospace Industries — principale contractor israeliano di aerospazio e difesa) satellite per l'osservazione terrestre ad alta risoluzione, con applicazioni in intelligence e sorveglianza militare. IAI ha inoltre lavorato con Thales Alenia Space su sistemi di telecomunicazione satellitare per funzioni critiche di difesa.</p>
+<p>Il DAP non sottoscrive direttamente questi contratti: sono i suoi membri ad operare come fornitori. Il coinvolgimento è quindi di filiera industriale — economica, tecnologica, di supply chain — e documentato nel tempo, ma rimane indiretto rispetto al Ministero della Difesa e all'esercito israeliani.</p>
+<p>Non è documentato l'impiego di tecnologie sviluppate dal DAP o dai suoi membri in operazioni militari israeliane specifiche.</p>
+    </section>
+    
+    <section class="document" id="distretto-tecnologico-aerospaziale-della-campania-13">
+        <h1>Distretto Tecnologico Aerospaziale della Campania</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Laer, impresa campana part del Distretto Tecnologico Aerospaziale della Campania, ha ricevuto da Israel Aerospace Industries (IAI) una commessa di 100 milioni di euro per la fornitura di componenti strutturali per aerei Boeing. Questo rappresenta un contratto di grandi dimensioni tra un'azienda italiana e il principale gruppo aerospaziale israeliano. La commessa è rimasta attiva fino al 2026, dimostrando continuità di rapporto.</p>
+<p>IAI non è solo un fornitore commerciale: nel 2025 ha generato 6,4 miliardi di dollari di ricavi dai soli gruppi di difesa su 7,4 miliardi complessivi. IAI fornisce sistemi militari direttamente al ministero della Difesa israeliano, incluso il sistema antimissile Arrow. IAI è al centro dell'industria militare e aerospaziale israeliana e dipende fortemente dalle capacità di filiera internazionali.</p>
+<p>I componenti strutturali che Laer produce per IAI sono elementi costruttivi fondamentali: supportano i sistemi di armamento, gli avionica militari e la struttura complessiva dei velivoli utilizzati dalla difesa israeliana. Quando Laer fornisce a IAI genera ricavi che consolidano la base industriale militare israeliana.</p>
+<p>Il collegamento Laer-IAI è documentato e significativo, ma rimane di filiera: non è provato un rapporto diretto del Distretto con le forze armate israeliane, né l'impiego specifico dei componenti in operazioni. Tuttavia, la continuità della commessa fino al 2026 mostra la stabilità di questo rapporto economico-industriale.</p>
+    </section>
+    
+    <section class="document" id="dtm-e-i-due-archi-della-filiera-della-difesa-israeliana-14">
+        <h1>DTM e i due archi della filiera della difesa israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>DTM è un'azienda di ingegneria che dal 1994 fornisce componenti, strutture, Ground Support Equipment (GSE — apparecchiature di supporto a terra) e sottosistemi spaziali ai principali produttori aerospaziali europei: Leonardo e Airbus. La relazione è trentennale e tecnologicamente sostanziale.</p>
+<p>Leonardo controlla Leonardo DRS, che possiede RADA, società israeliana che produce radar tattici militari — sistemi critici per la rilevazione di minacce aeree, la difesa contra-droni e la protezione del territorio. Leonardo ha inoltre sottoscritto un contratto da 140 milioni di dollari con Elbit Systems per il supporto logistico e la manutenzione della flotta di 30 aerei M-346 in servizio presso il Ministero della Difesa israeliano.</p>
+<p>Airbus, secondo grande committente di DTM, lavora con IAI (Israeli Aircraft Industries) — la principale azienda aerospaziale israeliana — nei programmi Heron e Heron TP. Questi sono droni da sorveglianza aerea a lungo raggio, utilizzati sia per operazioni civili (Frontex, agenzia di frontiera europea) che militari (acquisizione e trasmissione di immagini intelligence, sorveglianza territoriale).</p>
+<p>DTM è quindi integrata in due filiere parallele: Leonardo-RADA (radar militari israeliani) e Airbus-IAI (droni di sorveglianza israeliani). I collegamenti sono documentati e strutturali. Non è però provato che uno specifico prodotto DTM confluisca in tali sistemi o ne aumenti direttamente le capacità.</p>
+    </section>
+    
+    <section class="document" id="ey-ernst-young-e-i-rapporti-con-lindustria-della-difesa-israeliana-15">
+        <h1>EY – Ernst &amp; Young e i rapporti con l'industria della difesa israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>EY, tramite il suo ufficio israeliano (Kost Forer Gabbay &amp; Kasierer), opera come revisore dei conti di Elbit Systems, una delle maggiori imprese israeliane del settore difesa. Nel 2024–2025 Elbit ha pagato a EY oltre 10 milioni di dollari per servizi di audit e consulenza fiscale. EY non fornisce armi o servizi operativi, ma è economicamente e professionalmente integrata nella filiera professionale delle aziende che armano l'apparato militare israeliano.</p>
+<p>Elbit Systems sviluppa e produce tecnologie per la raccolta e l'elaborazione di informazioni (droni senza pilota, sistemi di comando e controllo, guerra elettronica, cyber), munizioni e capacità di difesa per l'Esercito israeliano e il Ministero della Difesa. Queste sono capacità critiche per operazioni militari di sorveglianza, attacco e difesa.</p>
+<p>Il ministero della Difesa israeliano ha affidato a Elbit contratti per oltre 300 milioni di dollari nel 2024 e 260 milioni nel 2025, destinati a sistemi di munizionamento e armamenti per l'IDF. Il collegamento tra EY e questi programmi passa attraverso la revisione contabile, ma collega direttamente la società di consulenza alla filiera dell'apparato militare israeliano.</p>
+<p>EY partecipa inoltre al board dell'8200 EISP, ecosistema legato agli alumni dell'Unità 8200 israeliana (il principale servizio di intelligence cibernetica dello Stato), e è revisore di ImageSat International, società di intelligence satellitare per difesa e sicurezza.</p>
+<p>Non è documentato che EY fornisca servizi operativi, intelligence o targeting. Il suo coinvolgimento è di natura economica e di filiera, attraverso servizi professionali a uno dei principali fornitori dell'industria militare israeliana.</p>
+    </section>
+    
+    <section class="document" id="fondazione-aldini-valeriani-leonardo-e-il-collegamento-con-la-difesa-israeliana-16">
+        <h1>Fondazione Aldini Valeriani, Leonardo e il collegamento con la difesa israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>La Fondazione Aldini Valeriani è collegata al gruppo Leonardo, una delle maggiori aziende europee di difesa e sicurezza. Leonardo produce elicotteri, sistemi di controllo del fuoco, equipaggiamenti per l'esercito e ha contratti significativi con clienti militari internazionali, incluso Israele.</p>
+<p>Nel 2012, Leonardo ha fornito 30 velivoli M-346 al ministero della Difesa israeliano, insieme a supporto tecnico, logistica, simulatori di volo e addestramento, per un valore di circa 600 milioni di dollari. Leonardo collabora inoltre con Elbit, una grande azienda israeliana della difesa, per sviluppare il Seagull, un veicolo navale senza equipaggio che la Marina israeliana utilizza operativamente.</p>
+<p>Il presidente della Fondazione Aldini Valeriani, Michele Poggipolini, gestisce un'azienda che nel marzo 2026 risulta fornitore qualificato di Leonardo Helicopters. Questo significa che una quota della filiera che alimenta la produzione Leonardo è integrata nella rete della Fondazione.</p>
+<p>Il collegamento tra la Fondazione e i programmi militari israeliani esiste quindi come legame di filiera industriale, non come fornitura diretta. La rete è reale e contemporanea, ma il dossier non dimostra che la Fondazione abbia contribuito a specifiche tecnologie o operazioni israeliane.</p>
+    </section>
+    
+    <section class="document" id="guardia-di-finanza-17">
+        <h1>Guardia di Finanza</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>La Guardia di Finanza integra continuativamente nella propria rete di sorveglianza costiera tecnologie fornite da IAI/ELTA, grande impresa controllata dal governo israeliano specializzata in sistemi radar e sensori militari. Dal 2019 ELTA ha ricevuto commesse per oltre 10 milioni di dollari relativi a radar ELM-2112, dispositivi che la stessa azienda fornisce anche alle forze armate israeliane per la sorveglianza al confine con Gaza.</p>
+<p>Il radar ELM-2112 è uno strumento capace di rilevare e tracciare oggetti in movimento su ampie aree geografiche: permette di sorvegliare coste e spazi aerei, inviando le informazioni raccolte ai centri di comando e controllo. Nel settore militare, questa tecnologia consente di identificare minacce, coordinare difese aeree e gestire operazioni sulla base di informazioni in tempo reale.</p>
+<p>ELTA non è un'azienda commerciale indipendente, ma un'impresa della difesa israeliana: fornisce sistemi alle forze armate e al ministero della difesa israeliano. Quando la Guardia di Finanza acquista e mantiene continuativamente questa tecnologia, genera ricavi che sostengono l'industria militare israeliana.</p>
+<p>Il collegamento tra la Guardia di Finanza e l'apparato militare israeliano è quindi indiretto: non è documentato un uso dei radar GdF da parte delle forze armate israeliane, ma il rapporto economico e industriale è costante e significativo. La Guardia di Finanza è fornitore e cliente di un'impresa centrale della base industriale della difesa israeliana.</p>
+    </section>
+    
+    <section class="document" id="lombardia-aerospace-cluster-comunicato-informativo-18">
+        <h1>Lombardia Aerospace Cluster - Comunicato Informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Il Lombardia Aerospace Cluster (LAC) è un consorzio di aziende della regione lombarda, non direttamente contrattualizzato con Israele. Però due imprese centrali al LAC — Leonardo e OHB Italia — hanno legami documentati con l'industria della difesa israeliana, creando una filiera indiretta che raggiunge strutture militari israeliane.</p>
+<p>Leonardo ha un contratto con Elbit Systems (grande azienda israeliana della difesa) per fornire pezzi di ricambio, servizi di riparazione e manutenzione dei 30 M-346, jet da addestramento che piloti e operatori di sistemi d'arma israeliani usano per prepararsi alle operazioni di volo e combattimento. L'accordo è previsto per 22 anni.</p>
+<p>OHB Italia lavora con Elbit su satelliti di osservazione terrestre. Elbit fornisce fotocamere satellitari sofisticate (JUPITER) e software per elaborare le immagini riprese dallo spazio. Questi satelliti hanno funzioni di osservazione e ricognizione rilevanti anche per operazioni di sicurezza e militari.</p>
+<p>In sintesi: il LAC non è direttamente coinvolto in contratti con l'apparato israeliano, ma le sue imprese formano una catena che raggiunge strutture e capacità della difesa israeliana, con funzioni specifiche di addestramento e sorveglianza.</p>
+    </section>
+    
+    <section class="document" id="npc-spacemind-e-i-legami-con-la-difesa-israeliana-19">
+        <h1>NPC Spacemind e i legami con la difesa israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Nel 2021, N.P.C. New Production Concept — attraverso la sua divisione spaziale Spacemind — ha collaborato con Elbit Systems in un progetto di ricerca e sviluppo congiunto finanziato dal programma Italia-Israele. Il progetto riguardava tecnologie spaziali per telecomunicazioni critiche e capacità di trasmissione dati in ambienti operativi.</p>
+<p>Elbit Systems non è una semplice azienda commerciale: è tra i principali contraktor della difesa israeliana, che fornisce regolarmente tecnologie, sistemi e capacità operative direttamente al Ministero della Difesa e all'esercito israeliano. NPC, dal canto suo, opera anche nel settore militare italiano, sviluppando programmi di ricerca in ambito spaziale e telecomunicazioni critiche per la Difesa nazionale, oltre a droni per sorveglianza e situational awareness acquisiti dalle Operazioni Speciali italiane.</p>
+<p>Il collegamento tra NPC e l'apparato militare israeliano non è diretto: passa attraverso Elbit Systems, che ha integrato i risultati della ricerca congiunta nei suoi programmi. Tuttavia, si tratta di una collaborazione formalizzata su tecnologie che abilitano capacità critiche — raccolta dati, trasmissione sicura, coordinamento operativo — funzionali alla difesa militare.</p>
+<p>Ciò che rimane non documentato è l'impiego effettivo della tecnologia sviluppata in operazioni militari israeliane specifiche. Resta provato il coinvolgimento di NPC nell'ecosistema industriale e tecnologico della difesa israeliana attraverso un partner centrale come Elbit.</p>
+    </section>
+    
+    <section class="document" id="nv5-e-la-sorveglianza-geospaziale-la-catena-israeliana-20">
+        <h1>NV5 e la sorveglianza geospaziale: la catena israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>NV5 Geospatial commercializza software e servizi di analisi geospaziale, cioè tecnologie per l'acquisizione e l'elaborazione di immagini satellitari e dati radar. I suoi prodotti principali, ENVI e SARscape, permettono di analizzare immagini ad alta risoluzione e dati SAR (Synthetic Aperture Radar, una tecnologia che "vede" attraverso le nuvole). Queste analisi estraggono informazioni sul territorio, rilevano cambiamenti e supportano decisioni operative.</p>
+<p>Dal 2022 NV5 autorizza Rubin-Tec, distributore israeliano, come distributore esclusivo per questi prodotti in Israele. Rubin-Tec dichiara tra i propri clienti il Ministero della Difesa israeliano e numerose imprese israeliane della difesa. NV5 stessa commercializza le proprie soluzioni per "Defense &amp; Intelligence" e "situational awareness" (consapevolezza della situazione operativa), applicazioni chiaramente militari.</p>
+<p>Le tecnologie geospaziali sono usate dall'esercito e dai servizi di intelligence per sorvegliare aree, rilevare movimenti, pianificare operazioni. Non è però documentato un contratto diretto fra NV5 Italia e il Ministero della Difesa israeliano, né l'uso di specifiche acquisizioni in operazioni militari.</p>
+<p>Il dossier dimostra una filiera commerciale e tecnologica strutturata verso l'apparato israeliano della difesa, ma non il flusso diretto di prodotti italiani verso l'IDF.</p>
+    </section>
+    
+    <section class="document" id="ohb-italia-comunicato-informativo-21">
+        <h1>OHB Italia - Comunicato Informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>OHB Italia è prime contractor di LUXEOSys/NAOS, satellite lussemburghese di osservazione terrestre da 168,2 milioni di euro. Il satellite fornisce immagini ad alta risoluzione della superficie terrestre ed è destinato anche a operazioni di sicurezza e militari. Elbit Systems, grande azienda israeliana della difesa, fornisce la fotocamera sofisticata (JUPITER) e gli algoritmi per elaborare e interpretare le immagini acquisite dal suolo.</p>
+<p>Elbit è direttamente contrattualizzata dal Ministero della Difesa israeliano per sistemi C4ISR — tecnologie usate per raccogliere informazioni, sorvegliare aree e obiettivi, elaborare dati e integrarli nei sistemi di comando e controllo delle Forze Armate israeliane. La stessa fotocamera JUPITER era già stata usata nel 2012 in OPTSAT-3000, satellite militare italiano, dove OHB aveva ruoli significativi.</p>
+<p>Il legame tecnologico è ricorrente dal 2012 al 2025: OHB Italia fornisce il satellite, Elbit fornisce l'ottica e gli algoritmi. La partnership è documentata e prolungata nel tempo, ma il collegamento è transitivo — OHB fornisce una piattaforma, Elbit integra la tecnologia militare.</p>
+<p>Non è documentato un contratto diretto OHB–Ministero della Difesa israeliano, né l'uso di immagini OHB in singole operazioni israeliane.</p>
+    </section>
+    
+    <section class="document" id="planetek-italia-e-il-collegamento-tecnologico-con-israele-22">
+        <h1>Planetek Italia e il collegamento tecnologico con Israele</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Planetek Italia sviluppa tecnologie avanzate per la raccolta e l'analisi di immagini satellite e video da droni, destinate a supportare operazioni militari e di sicurezza. L'azienda collabora da anni con due importanti università israeliane: il Technion e l'Università di Ben-Gurion, con cui ha partecipato a progetti finanziati anche dall'Agenzia Spaziale Italiana.</p>
+<p>Queste università non sono semplici centri di ricerca: il Technion lavora direttamente con il ministero della Difesa israeliano e con grandi aziende della difesa come Rafael, Elbit e IAI. L'Università di Ben-Gurion collabora con l'esercito israeliano e sviluppa programmi per le sue unità specializzate. Il collegamento è quindi transitivo ma significativo: Planetek fornisce competenze e ricerca a istituzioni inserite nel cuore dell'apparato militare israeliano.</p>
+<p>La suite Preciso di Planetek è una tecnologia che analizza automaticamente i dati satellitari per identificare e tracciare veicoli militari, supportando quello che in ambito militare si chiama "situational awareness" — la consapevolezza in tempo reale di dove sono le forze sul terreno. Questa capacità è direttamente rilevante per operazioni di combattimento e controllo del territorio.</p>
+<p>Non è documentato che Planetek fornisca direttamente all'esercito israeliano o che le sue tecnologie siano usate in specifiche operazioni. Il rapporto rimane una collaborazione scientifica e tecnologica concreta, ma il passaggio da questa collaborazione a un beneficio militare diretto per Israele non è provato.</p>
+    </section>
+    
+    <section class="document" id="regione-campania-comunicato-informativo-23">
+        <h1>Regione Campania – Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>La Regione Campania non fornisce armi a Israele. Tuttavia, la sua politica di sostegno alle imprese aerospaziali l'ha inserita in rapporti economici significativi con società strategiche della difesa israeliana. Il caso principale riguarda LAER, azienda aerospaziale campana sostenuta dalla Regione con finanziamenti e programmi di internazionalizzazione.</p>
+<p>LAER ha sviluppato una commessa quadriennale da 100 milioni di euro con Israel Aerospace Industries (IAI), principale azienda governativa israeliana di aerospace e difesa. La commessa riguarda la produzione di strutture per il Boeing 777-300ERSF, un aereo cargo convertito. La produzione per IAI è documentata nel 2023 e il rapporto rimane significativo. Nel 2024, i reparti militari di IAI hanno generato 5,2 miliardi di euro e producono missili, droni, sistemi di sorveglianza e intercettori missilistici.</p>
+<p>La Regione ha anche sostenuto formazione e innovazione attraverso Leonardo, azienda italiana della difesa, per circa 250.000 euro. Leonardo fornisce supporto logistico e sistemi di addestramento all'M-346, l'aereo da addestramento utilizzato dall'aeronautica militare israeliana. Questa è una catena più diretta verso una capacità militare israeliana identificata.</p>
+<p>La commessa LAER-IAI non finanzia direttamente armi, ma genera beneficio economico-industriale per una società centrale della difesa israeliana, rafforzandone l'ecosistema produttivo. Il collegamento Leonardo-M-346 è più esplicito verso una capacità militare.</p>
+<p>Non è documentato che la Regione o le sue imprese finanzino operazioni militari israeliane specifiche, ma risulta che politiche di sostegno industriale abbiano sostenuto imprese in rapporti economici significativi con operatori strategici della difesa israeliana.</p>
+    </section>
+    
+    <section class="document" id="emilia-romagna-sorveglianza-subacquea-e-il-partner-israeliano-24">
+        <h1>Emilia-Romagna: sorveglianza subacquea e il partner israeliano</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>L'Autorità di Sistema Portuale di Ravenna, ente pubblico regionale, partecipa a UNDERSEC, un progetto europeo finanziato da Horizon Europe (il principale programma di ricerca dell'UE) con un budget complessivo di 5,99 milioni di euro. Il partner principale è Rafael Advanced Defence Systems, grande impresa israeliana specializzata in sistemi d'arma, sensori e soluzioni di difesa. Insieme operano anche il Ministero della Difesa israeliano e altre istituzioni.</p>
+<p>UNDERSEC sviluppa tecnologie di sorveglianza subacquea e robotica sottomarina, cioè droni e sensori per il monitoraggio degli ambienti marini in profondità. Il progetto integra anche fusione dati (raccogliere informazioni da più fonti e rielaborarle insieme) e supporto decisionale automatizzato. Queste capacità hanno una doppia valenza: sicurezza marittima civile e sorveglianza militare dei fondali.</p>
+<p>Rafael fornisce e mantiene i sistemi d'arma navali della Marina israeliana, il che significa che l'azienda opera al centro dell'industria della difesa israeliana. La partecipazione dell'Autorità Portuale di Ravenna a questo progetto crea un collegamento transitivo fra istituzioni pubbliche italiane e l'apparato militare israeliano attraverso la ricerca congiunta.</p>
+<p>La Regione Emilia-Romagna possiede inoltre il 10,45585% di SAPIR, società portuale ravennate, rafforzando la connessione istituzionale. Tuttavia, non è documentato un finanziamento regionale diretto a Rafael o al Ministero della Difesa israeliano.</p>
+    </section>
+    
+    <section class="document" id="regione-friuli-venezia-giulia-25">
+        <h1>Regione Friuli Venezia Giulia</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>La Regione Friuli Venezia Giulia sostiene attraverso finanziamenti pubblici Leonardo e Fincantieri, due grandi gruppi italiani della difesa e dell'industria navale. Nel 2024 la Regione ha stanziato oltre un milione di euro per progetti di ricerca in collaborazione con Fincantieri, in particolare su tecnologie subacquee e intelligenza artificiale. Questi investimenti regionali alimentano il settore della difesa italiana.</p>
+<p>Leonardo, il principale gruppo di difesa italiano, è proprietario di Leonardo DRS/RADA, una società israeliana specializzata in radar tattici. Nel 2023 RADA ha ricevuto un contratto diretto dal ministero della Difesa israeliano per la fornitura di radar destinati alla sorveglianza aerea e ai sistemi di allerta precoce delle forze armate israeliane. I radar RADA permettono di rilevare aerei e minacce aeree, alimentando i centri di comando militare.</p>
+<p>RADA non è una divisione commerciale minore: opera al cuore dell'industria israeliana della difesa e lavora direttamente con il governo e l'esercito israeliano. La Regione, finanziando Leonardo, finanzia indirettamente anche l'impresa israeliana.</p>
+<p>Questo collegamento è indiretto ma documentato e continuativo: la Regione non esegue commesse militari israeliane, ma sostiene attivamente il settore industriale della difesa italiano che a sua volta controlla e sostiene la base industriale della difesa israeliana. La cooperazione regionale prosegue nel 2024–2026.</p>
+    </section>
+    
+    <section class="document" id="san-marino-il-gigante-invisibile-della-cybersecurity-26">
+        <h1>San Marino: il gigante invisibile della cybersecurity</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Nel 2025 la Cassa di Risparmio della Repubblica di San Marino, banca interamente controllata dallo Stato sammarinese, ha selezionato HUB Cyber Security per un progetto di modernizzazione digitale del valore dichiarato di 20 milioni di euro. Il progetto comprende cybersecurity, data center e infrastrutture digitali critiche per il sistema bancario e finanziario del paese.</p>
+<p>HUB è una società israeliana fondata da ex ufficiali delle unità 8200 e 81 dell'IDF (l'esercito israeliano), le principali unità di intelligence e cyber warfare del paese. HUB ha già fornito soluzioni per proteggere informazioni sensibili al Ministero della Difesa israeliano e mantiene relazioni strutturate con l'apparato governativo israeliano.</p>
+<p>Nel 2024 HUB ha inoltre acquisito QPoint, società che a sua volta ha contatti con Rafael, la grande impresa israeliana della difesa. Inoltre, HUB ha sottoscritto nel 2025 un contratto da 16 milioni di shekel (quasi 4 milioni di euro) con il Ministero dell'Interno israeliano per fornire protezione cyber in ambienti governativi critici.</p>
+<p>San Marino non risulta finanziatore diretto della difesa israeliana, ma la scelta di affidare infrastrutture digitali critiche a un'impresa strutturalmente integrata nell'ecosistema di intelligence e sicurezza israeliano crea un collegamento tecnologico significativo fra il paese e apparati governativi israeliani.</p>
+    </section>
+    
+    <section class="document" id="rgm-space-e-la-filiera-della-difesa-israeliana-27">
+        <h1>RGM Space e la filiera della difesa israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>RGM Space è un'azienda italiana specializzata nella progettazione e produzione di componenti elettronici ad alta affidabilità per il settore spaziale e aeronautico. Dal 2000 opera nel field della qualificazione, ingegneria e testing di questi componenti. Tra i programmi documentati figura COSMO-SkyMed, una costellazione di satelliti che raccolgono immagini della Terra per usi sia civili che militari.</p>
+<p>RGM non vende direttamente ai clienti israeliani. Utilizza invece Relcom Components, un distributore israeliano che dichiara di rappresentare RGM e di essere un fornitore qualificato di Elbit Systems, IAI (Israeli Aircraft Industries), Ministero della Difesa israeliano e Rafael — quattro tra i principali attori industriali e istituzionali della difesa israeliana. Elbit Systems è la grande azienda israeliana che produce droni, sistemi di sorveglianza e difesa; IAI produce piattaforme aerospaziali; Rafael sviluppa sistemi d'arma.</p>
+<p>La catena è quindi: RGM fornisce componenti a Relcom, che li distribuisce al mercato della difesa israeliana. RGM possiede competenze applicabili anche a programmi militari e aeronautici, ma il rapporto rimane transitivo. Non è documentato che uno specifico componente RGM sia stato effettivamente ordinato da un cliente militare israeliano dopo il 7 ottobre 2023.</p>
+<p>Il dossier dimostra che RGM è inserita in una filiera commerciale israeliana concreta, con accesso a clienti militari di rilievo. Tuttavia, non prova che questa opportunità sia stata effettivamente sfruttata per fornire componenti a programmi di difesa israeliani.</p>
+    </section>
+    
+    <section class="document" id="sam-società-aerospaziale-mediterranea-28">
+        <h1>SAM – Società Aerospaziale Mediterranea</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>SAM è un consorzio di aziende italiane dell'aerospazio e della difesa. MAPSAT, una società del consorzio, ha operato un satellite di osservazione terrestre chiamato EROS-B ed è stata certificata come stazione di ricezione dati per questa costellazione satellitare. ImageSat International, la società israeliana proprietaria del satellite, qualifica esplicitamente EROS-B come strumento militare: il satellite viene fornito a difesa e servizi di intelligence.</p>
+<p>Un satellite per l'osservazione è uno "sguardo dal cielo": raccoglie immagini ad altissima risoluzione della terra e le trasmette a terra, dove vengono elaborate. Nel settore militare, l'osservazione satellitare è cruciale per il comando militare, l'intelligence, la sorveglianza di bersagli, la mappatura dei conflitti. ImageSat fornisce questo servizio direttamente a strutture di difesa e intelligence israeliane.</p>
+<p>MAPSAT, gestendo la stazione di ricezione, è integrata nella catena di distribuzione dei dati satellitari di ImageSat. Non è provato che MAPSAT abbia accesso ai dati grezzi militari, ma ha una relazione strutturale con un operatore che fornisce intelligence via satellite all'apparato israeliano.</p>
+<p>Inoltre, TopView, altra azienda del consorzio SAM, nel 2024 ha integrato un sistema di identificazione dei droni con una società israeliana che gestisce lo spazio aereo. Questo rappresenta un'ulteriore filiera tecnologica, più recente. Il dossier mostra quindi due percorsi paralleli di coinvolgimento: uno nella space intelligence, uno nella gestione aerea. Nessuno dei due è direttamente militare secondo la documentazione disponibile, ma entrambi collegano SAM a operatori israeliani di difesa e security.</p>
+    </section>
+    
+    <section class="document" id="sideius-comunicato-informativo-29">
+        <h1>Sideius – Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Sideius, azienda italiana specializzata in testing, controlli non distruttivi e certificazione di materiali aerospaziali, non fornisce direttamente armi o sistemi militari all'esercito israeliano. Tuttavia, è documentato che dal 2021 al 2026 rimane nella filiera di Elbit Systems, la maggiore azienda della difesa israeliana.</p>
+<p>Elbit è cliente certificato di Sideius (ex TEC Eurolab, con cui Sideius ha continuità societaria). Sideius fornisce a Elbit servizi tecnici critici: validazione di materiali, test di qualità e certificazione per prodotti destinati all'industria aerospaziale e della difesa. Questi servizi si trovano a monte della catena produttiva: permettono ai fornitori di qualificare e industrializzare i loro prodotti, inclusi sistemi militari.</p>
+<p>Elbit è integralmente collegata al ministero della Difesa e all'esercito israeliani, con oltre 5 miliardi di euro di contratti governativi israeliani nel 2024. Produce droni, sistemi di comunicazione militare e armi guidate. Il legame Sideius-Elbit è quindi transitivo: Sideius sostiene la capacità industriale di una grande azienda della difesa israeliana, senza che sia documentato un trasferimento di tecnologia o ricavi Sideius direttamente in programmi militari israeliani.</p>
+<p>La referenza Elbit nel catalogo Sideius del 2026 prova continuità formale, non dimostra ordini effettivamente eseguiti dopo il 7 ottobre 2023.</p>
+<p>Sideius non fornisce armi a Israele, ma è concretamente inserita nella filiera industriale che sostiene le capacità di una società centrale della difesa israeliana, attraverso servizi tecnici di validazione e certificazione.</p>
+    </section>
+    
+    <section class="document" id="sitael-30">
+        <h1>SITAEL</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>SITAEL, società italiana di aerosipazo, ha co-sviluppato dal 2013 insieme a Rafael Advanced Defense Systems, grande impresa israeliana della difesa, un sistema di propulsione elettrica per microsatelliti chiamato MEPS. Questo non è un contratto secondario: SITAEL ha avuto un ruolo diretto nello sviluppo della tecnologia, realizzando componenti di propulsione e realizzando test di integrazione con componenti di Rafael.</p>
+<p>Un sistema di propulsione è la "spina dorsale" di un satellite: determina come il satellite si muove, cambia orbita, e mantiene la posizione. La propulsione elettrica è una tecnologia avanzata che consente ai satelliti di operare per anni, modificare le loro traiettorie e svolgere missioni complesse di lunga durata. Nel settore militare, i satelliti con propulsione avanzata possono condurre ricognizione, sorveglianza, comunicazione tattica e guerre elettroniche.</p>
+<p>Rafael non è un fornitore civile: è una delle più grandi aziende della difesa israeliana e dichiara una relazione speciale con le forze armate israeliane. Rafael lavora direttamente a programmi spaziali militari israeliani. Quando SITAEL co-sviluppa con Rafael, contribuisce alla catena tecnologica che alimenta lo spazio militare israeliano.</p>
+<p>SITAEL ha quindi fornito un contributo industriale e tecnologico reale a un'impresa centrale della difesa israeliana. Non è però documentato se la tecnologia MEPS sia stata impiegata in operazioni militari specifiche, né è provato un contratto diretto con le forze armate israeliane. Il collegamento è tecnologicamente significativo ma rimane di filiera, non diretto.</p>
+    </section>
+    
+    <section class="document" id="t3lab-technology-transfer-team-31">
+        <h1>T3LAB – Technology Transfer Team</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>T3LAB è una società italiana specializzata in trasferimento tecnologico. È capofila del progetto StreamER, finanziato con 697mila euro (di cui 500mila euro di contributo pubblico), che sviluppa ROV e AUV — robot subacquei autonomi capaci di operare sott'acqua senza equipaggio — e sistemi di comunicazione sottomarina sicura e intelligenza artificiale applicata al rilevamento.</p>
+<p>Partner di StreamER è L3Harris Calzoni, società italiana della difesa specializzata in sistemi per sommergibili, difesa da minacce sottomarine e movimentazione di armi. L3Harris Calzoni ha esportato nel 2023 tecnologie verso Israele. I ROV e gli AUV sviluppati nel progetto sono utilizzati dalle marine militari per ricerca, identificazione di minacce e missioni tattiche sottomarine.</p>
+<p>La catena è: T3LAB → StreamER → L3Harris Calzoni → export verso Israele → Israel Navy. Un secondo collegamento passa per MacArtney Italy, partner di T3LAB, il cui distributore israeliano (Vsense) dichiara di fornire clienti nella Israel Navy.</p>
+<p>Non è documentato che T3LAB abbia prodotto armi israeliane o che le sue tecnologie siano impiegate in specifiche operazioni militari. Il coinvolgimento è a livello di filiera industriale e tecnologica.</p>
+    </section>
+    
+    <section class="document" id="thales-alenia-space-italia-e-la-filiera-spazio-militare-italiano-israeliana-32">
+        <h1>Thales Alenia Space Italia e la filiera spazio-militare italiano-israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 4/5</strong></p>
+<p>Thales Alenia Space Italia (TASI) ha partecipato direttamente al programma SHALOM, una missione satellitare congiunta tra Italia e Israele, lavorando con IAI (Israel Aerospace Industries) ed Elbit Systems, principali aziende israeliane dell'aerospazio e della difesa.</p>
+<p>TASI contribuisce direttamente al programma COSMO-SkyMed, una costellazione di satelliti del Ministero della Difesa italiano. Questi satelliti raccolgono immagini ad alta risoluzione della Terra per sorveglianza, riconoscimento e intelligence (ISR). COSMO-SkyMed è integrato operativamente con OPTSAT-3000, un satellite militare costruito da IAI per la Difesa italiana, dotato di una camera ottica ad altissima risoluzione (JUPITER) fornita da Elbit. OPTSAT è stato concepito per osservazione strategica e applicazioni di difesa e sicurezza.</p>
+<p>Attraverso questa integrazione, TASI partecipa a una catena di fornitura che produce capacità di osservazione e intelligence militare per il Ministero della Difesa italiano. Mantiene inoltre rapporti industriali e tecnici diretti con IAI ed Elbit.</p>
+<p>Non è documentato un rapporto diretto di TASI verso l'IDF o il Ministero della Difesa israeliano. Il suo coinvolgimento è di natura industriale e di filiera, attraverso la partecipazione a programmi spaziali che producono capacità militari operative.</p>
+    </section>
+    
+    <section class="document" id="abzero-e-lindustria-dei-droni-israeliana-33">
+        <h1>ABzero e l'industria dei droni israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>ABzero è un'azienda che sviluppa piattaforme di droni (UAS — unmanned aerial systems) e sistemi di navigazione per applicazioni civili e di ricerca. Dal 2024 al 2026 è subcontraente di Thales Alenia Space France in due programmi finanziati dall'Agenzia Spaziale Europea: TOPASE e SOPRANO. In questi progetti fornisce piattaforme di droni, integrazione di sistemi e supporto sperimentale.</p>
+<p>Thales Alenia Space è una joint venture tra il francese Thales e l'italiano Leonardo, attivi entrambi nel settore della difesa. Nel 2024 Thales ha acquisito al 100% Get SAT Communications, una società israeliana che fornisce servizi di comunicazione via satellite. Thales era inoltre proprietaria di una quota del 49% di U-TacS, società israeliana operante nei droni e nei sistemi di sorveglianza, oggi acquisita completamente da Elbit Systems — la principale azienda israeliana che produce droni militari, radar e sistemi di comando e controllo.</p>
+<p>La catena è: ABzero fornisce droni a Thales Alenia Space France; Thales è collegata a Get SAT Communications e aveva una partecipazione in U-TacS, ora parte di Elbit Systems. È una connessione transitiva e strutturale nell'ecosistema dei droni israeliani, ma non documentata in quanto trasferimento specifico di tecnologia ABzero verso capacità militari.</p>
+<p>Il collegamento rimane significativo anche dopo il 7 ottobre 2023. Non è però provato che tecnologia ABzero sia confluita in sistemi militari israeliani.</p>
+    </section>
+    
+    <section class="document" id="aerohub-clust-er-mech-e-israele-cosa-emerge-34">
+        <h1>AeroHUB – Clust-ER Mech e Israele: cosa emerge</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>AeroHUB e Clust-ER Mech sono cluster industriali dell'Emilia-Romagna nell'aerospazio e nella meccanica avanzata. Nel 2021, NPC SPACEMIND, azienda spaziale parte della rete MECH, ha partecipato a HTCNS, un progetto di ricerca e sviluppo finanziato dai governi italiano e israeliano. Accanto a NPC SPACEMIND c'era Elbit Systems, uno dei principali fornitori dell'apparato militare israeliano.</p>
+<p>Elbit Systems è un'azienda israeliana che fornisce sistemi di difesa direttamente alle Forze Armate e al Ministero della Difesa israeliano. Nel 2026 ha contratti documentati per oltre 560 milioni di dollari di forniture militari: munizioni aeree, sistemi di comando e controllo per gli elicotteri da combattimento, sistemi di guerra elettronica e munizioni d'artiglieria.</p>
+<p>NPC SPACEMIND ha collaborato con Elbit in questo progetto pubblico di ricerca, ma il dossier non prova che i risultati di tale ricerca siano confluiti negli armamenti e nei sistemi di comando israeliani. La connessione è quindi transitiva: l'ecosistema dell'Emilia-Romagna — attraverso NPC SPACEMIND — ha collaborato in ricerca con un'azienda che alimenta l'industria militare israeliana.</p>
+<p><strong>Quel che è provato:</strong> il collegamento di ricerca tra l'ecosistema MECH e Elbit Systems, azienda direttamente integrata nell'apparato militare israeliano. <strong>Quel che non è provato:</strong> il contributo specifico di AeroHUB e l'impiego dei risultati di HTCNS nelle capacità militari israeliane.</p>
+    </section>
+    
+    <section class="document" id="altec-e-israele-comunicato-informativo-35">
+        <h1>ALTEC e Israele: comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>ALTEC è un'azienda italiana del settore aerospaziale che fornisce servizi di logistica, ingegneria e supporto tecnico, controllata al 63,75% da Thales Alenia Space Italia, una joint venture tra il gruppo francese Thales e Leonardo.</p>
+<p>La connessione più diretta di ALTEC con Israele è commerciale: l'azienda ha operato come partner commerciale di SpacePharma, società israeliana di ricerca e sperimentazione spaziale, nel programma DIDO-3, una missione scientifica italo-israeliana. Il valore e la continuità di questo rapporto non sono pienamente documentati.</p>
+<p>Il collegamento più rilevante sul piano militare passa attraverso la proprietà societaria. Thales collabora con Elbit Systems, grande azienda israeliana della difesa, e fornisce componenti per l'Hermes 900, un aereo senza pilota utilizzato per la sorveglianza e la ricognizione dall'Aeronautica militare israeliana. Nel 2024, Thales ha inoltre acquisito Get SAT, società israeliana specializzata in terminali satellitari e comunicazioni sicure, ampliando l'esposizione del gruppo all'ecosistema militare israeliano.</p>
+<p>Il dossier dimostra un coinvolgimento economico e industriale significativo di ALTEC con Israele, ma non consente di attribuire alla società un contributo diretto alla difesa militare israeliana.</p>
+    </section>
+    
+    <section class="document" id="argotec-la-difesa-italiana-e-il-collegamento-con-iai-attraverso-i-satelliti-36">
+        <h1>Argotec, la difesa italiana e il collegamento con IAI attraverso i satelliti</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Argotec è una delle principali aziende italiane nel settore aerospaziale e sviluppa sistemi critici per la difesa italiana. Ha ricevuto finanziamenti dal ministero della Difesa italiano per due progetti specifici: SeQBO, dedicato alle comunicazioni satellitari crittografate tramite tecnologia quantistica, e SPADES2.0, un programma esplicitamente etichettato come "for Defence" con un finanziamento di oltre 290 mila euro autorizzato nel 2024. La Difesa italiana rappresentava circa il 30% del business di Argotec nel 2025.</p>
+<p>Telespazio, il principale operatore italiano di servizi e infrastrutture spaziali, è partner di Argotec in diversi progetti. Telespazio è il contractor principale di OPTSAT-3000, un satellite di osservazione terrestre costruito da IAI, l'azienda aerospaziale e della difesa israeliana. Questo satellite viene utilizzato dai servizi di intelligence e dalle strutture difensive italiane per ottenere immagini ad alta risoluzione del territorio.</p>
+<p>Il collegamento è quindi reale: le competenze di Argotec nella tecnologia spaziale si inseriscono in una filiera che coinvolge IAI come produttore di infrastrutture critiche per la difesa italiana. Tuttavia, non è documentato che Argotec fornisca direttamente a IAI o che le sue tecnologie siano reimpiegate per scopi militari israeliani.</p>
+<p>Argotec è fortemente integrata nella difesa italiana e ha una connessione concreta, sebbene transitiva, con programmi che coinvolgono l'industria aerospaziale-difensiva israeliana.</p>
+    </section>
+    
+    <section class="document" id="avs-added-value-solutions-e-la-filiera-spazio-difesa-europea-37">
+        <h1>AVS – Added Value Solutions e la filiera spazio-difesa europea</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>AVS opera in programmi strategici della filiera spazio-difesa europea. Collabora con Telespazio Ibérica su una costellazione satellitare del valore di 20 milioni di euro e partecipa ad AMELAS, progetto per una stazione laser che contribuisce alla sorveglianza e difesa della marina spagnola.</p>
+<p>Telespazio è un grande integratore spaziale che lavora per la Difesa italiana e per programmi europei. Nel progetto OPTSAT-3000, un satellite militare costruito per il Ministero della Difesa italiano, Telespazio fungeva da coordinatore principale e la costruzione del satellite è stata affidata a IAI (Israel Aerospace Industries), grande azienda israeliana dell'aerospazio e della difesa. La camera di osservazione ad alta risoluzione del satellite è stata fornita da Elbit, principale azienda israeliana della difesa specializzata in tecnologie di sensoristica e ricognizione.</p>
+<p>Thales, altro socio della filiera, ha integrato anche un sistema di trasmissione dati real-time (datalink) fra droni senza pilota e centri di comando, sviluppato in collaborazione con aziende israeliane, per permettere il trasferimento istantaneo di immagini e informazioni tattiche.</p>
+<p>AVS non risulta direttamente coinvolta in operazioni militari israeliane. È però concretamente inserita in filiere spazio-europee che comprendono partner con rapporti documentati e diretti con l'industria della difesa israeliana. Il collegamento è transitivo ma strutturale.</p>
+    </section>
+    
+    <section class="document" id="axiom-space-e-lecosistema-spaziale-israeliano-38">
+        <h1>Axiom Space e l'ecosistema spaziale israeliano</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Axiom Space è un'azienda americana che fornisce servizi di trasporto spaziale e accesso alla Stazione Spaziale Internazionale. Dal 2022, ha gestito la missione Ax-1/Rakia, che ha portato equipaggi israeliani e carichi sperimentali nello spazio orbitale. </p>
+<p>IAI (Israel Aerospace Industries) era partner diretto nella missione: ha partecipato alla progettazione, all'integrazione dei sistemi e al controllo tecnico di Rakia, che comprende laboratori per esperimenti scientifici e ricerca spaziale. Uno di questi esperimenti, GALI, era finanziato dal Ministero della Difesa israeliano ed è stato portato in orbita dal volo di Axiom.</p>
+<p>IAI non è un ente di ricerca civile: è la principale contrattatrice della difesa israeliana, che sviluppa caccia F-16, sistemi di difesa missilistica (tra cui Arrow, fornito direttamente all'esercito israeliano), droni e sistemi di sorveglianza. Axiom non fornisce direttamente a IAI equipaggiamenti militari, ma partecipa a un ecosistema dove una grande azienda di difesa israeliana integra tecnologie spaziali con applicazioni sia civili che militari.</p>
+<p>Il collegamento tra Axiom e l'apparato militare israeliano rimane transitivo: passa attraverso IAI e attraverso i programmi spaziali che essa coordina. Non è documentato il trasferimento di tecnologia spaziale di Axiom a sistemi militari operativi.</p>
+    </section>
+    
+    <section class="document" id="celeste-technologies-comunicato-informativo-39">
+        <h1>Celeste Technologies - Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Celeste Technologies sviluppa software per stazioni base 5G satellitari (NTN — reti non terrestri che integrano satelliti e reti terrestri). Nel 2026 ha validato SmartgNB, il suo software, con il sistema di comunicazione satellitare di Sateliot, una costellazione di satelliti destinata anche ad applicazioni di sicurezza civile e militare.</p>
+<p>Sateliot è partner industriale della divisione Defence &amp; Security di Indra, grande gruppo spagnolo attivo in difesa e sicurezza, con canale commerciale diretto verso clienti militari. Indra ha relazioni industriali documentate con Israel Aerospace Industries (IAI), principale azienda israeliana di aerospazio e difesa. Indra ha partecipato al progetto europeo SAFEDRONE, ricevendo finanziamento UE con IAI come partner industriale.</p>
+<p>La catena è: Celeste sviluppa software; il software integra payload Sateliot; Sateliot è commercializzato da Indra verso clienti Defence &amp; Security; Indra collabora con IAI. Tuttavia, non è dimostrato un trasferimento di tecnologia Celeste verso IAI o verso clienti israeliani. Il collegamento è transitivo e costruito su una filiera di relazioni industriali.</p>
+<p>Celeste dichiara il mercato "Defence &amp; Security Communications" come ambito di attività. Le attività documentate proseguono dopo il 7 ottobre 2023 e continuano nel 2026, ma non è documentata una decisione o azione specificamente riferita a Israele. La connessione con l'industria israeliana è sostanziale a livello transitivo, ma non è dimostrato che la tecnologia Celeste sia confluita in programmi o sistemi militari israeliani.</p>
+    </section>
+    
+    <section class="document" id="d-orbit-e-israele-cosa-emerge-40">
+        <h1>D-Orbit e Israele: cosa emerge</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>D-Orbit è un'azienda italiana specializzata in logistica spaziale e servizi di lancio satellitare. Nel 2025 ha sottoscritto un accordo preliminare con Moonshot Space, startup israeliana fondata nel 2024 che opera nel settore della logistica spaziale e sviluppa tecnologie per test ipersonici fino a Mach 6 (oltre sei volte la velocità del suono).</p>
+<p>I test ipersonici sono tecnologie di ricerca che interessano sia settori civili che militari. Parte del management di Moonshot proviene da programmi governativi e difensivi israeliani. La capacità ipersonica è sviluppata anche dall'industria militare israeliana per sistemi d'arma avanzati. Tuttavia, il dossier non prova che D-Orbit partecipi direttamente a questa componente militare della startup.</p>
+<p>D-Orbit ha inoltre dispiegato TAU-SAT2, un satellite accademico israeliano del 2023, utilizzando i propri servizi di lancio. Questo satellite conteneva una batteria prodotta da Epsilor, azienda che fornisce soluzioni energetiche direttamente alle Forze Armate israeliane, al Ministero della Difesa, e ai principali produttori israeliani di sistemi d'arma come Elbit e Rafael.</p>
+<p>Nel 2025, D-Orbit ha acquisito completamente Planetek, azienda che opera in settori di difesa, intelligence e sicurezza, ampliando il suo profilo verso tecnologie dual-use.</p>
+<p><strong>Quel che è provato:</strong> relazioni concrete e recenti di D-Orbit con ecosistemi tecnologici israeliani connessi alla difesa. <strong>Quel che non è provato:</strong> la partecipazione diretta di D-Orbit alle operazioni militari israeliane.</p>
+    </section>
+    
+    <section class="document" id="dallara-automobili-e-la-filiera-della-difesa-41">
+        <h1>Dallara Automobili e la filiera della difesa</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Dallara Compositi, specializzata in materiali avanzati e componenti aeronautici, produce elementi strutturali per Leonardo Helicopters, il braccio elicotteristico del principale gruppo italiano della difesa. In particolare, fornisce componenti compositi per l'AW HERO, un sistema di elicottero unmanned, cioè pilotabile da remoto senza equipaggio a bordo. Questi sistemi sono utilizzati per missioni di sorveglianza, ricerca e interventi in ambito militare e di sicurezza marittima.</p>
+<p>Leonardo non opera solo in Italia. Attraverso Leonardo DRS, il gruppo controlla RADA, società israeliana specializzata in radar tattici, cioè sistemi di rilevamento e tracciamento di bersagli per uso militare. Leonardo ha inoltre fornito direttamente 30 addestratori militari M-346 al Ministero della Difesa israeliano.</p>
+<p>La relazione fra Dallara e Leonardo comprende materiali avanzati, digital twins (copie virtuali usate per simulazione), e componentistica. Questo significa che Dallara contribuisce a una filiera industriale che collega l'ecosistema della difesa italiana direttamente al settore della difesa israeliana, pur non risultando in possesso di contratti diretti con autorità israeliane.</p>
+<p>Anche Dallara USA dichiara attività nel settore defense da circa dieci anni, con capacità in radome (coperture di protezione per sistemi radar), strutture stealth (progettate per evitare il rilevamento) e protezioni balistiche.</p>
+<p>Il documento non dimostra che specifiche tecnologie Dallara siano confluite in sistemi israeliani, ma la filiera economica e industriale tra i due paesi risulta strutturale e documentata.</p>
+    </section>
+    
+    <section class="document" id="ecoaida-e-le-tecnologie-di-protezione-biologica-nella-filiera-difensiva-italiana-42">
+        <h1>EcoAida e le tecnologie di protezione biologica nella filiera difensiva italiana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>EcoAida (nota anche come Virostatics) sviluppa nano-materiali e tecnologie per testare l'inattivazione di agenti patogeni dispersi per via aerea — una capacità rilevante per la protezione biologica e la biosicurezza. Ha partecipato alla validazione di e4life, una tecnologia di difesa biologica sviluppata da una joint venture tra Lendlease e ELT Group, un'azienda italiana specializzata in difesa.</p>
+<p>ELT Group non è una semplice startup. Ha esperienza consolidata in sistemi di guerra elettronica, biosicurezza e settore difensivo. La stessa ELT ha collaborazioni storiche con Elisra, un'azienda israeliana che produce sistemi di guerra elettronica e equipaggiamenti militari. Questo significa che EcoAida è inserita in una filiera dove il partner industriale ha rapporti strutturati con l'industria della difesa israeliana.</p>
+<p>Le tecnologie di EcoAida hanno applicazioni "dual-use": possono servire sia per scopi civili di protezione sanitaria sia per ambiti militari. Tuttavia, il dossier non dimostra che le soluzioni sviluppate da EcoAida confluiscano nei programmi militari israeliani di cui ELT è partner.</p>
+<p>EcoAida è significativamente inserita nella filiera italiana della difesa biologica, ma il collegamento diretto all'uso operativo in Israele non è provato. Il rapporto rimane una prossimità industriale, non una fornitura diretta.</p>
+    </section>
+    
+    <section class="document" id="egicon-comunicato-informativo-43">
+        <h1>Egicon – Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Egicon, azienda italiana nel settore dell'automazione industriale, ha sviluppato con Thales Alenia Space (grande integratore aerospaziale italo-francese) un robot collaborativo chiamato Cratos, utilizzato per assemblare satelliti militari italiani del programma COSMO-SkyMed. Questo programma del ministero italiano della Difesa fornisce capacità di osservazione terrestre, comunicazioni, radar e raccolta di segnali di intelligence.</p>
+<p>Il collegamento con Israele non è diretto dal contributo di Egicon. Tuttavia, Thales Alenia Space ha avuto relazioni pluriennali con Israel Aerospace Industries (IAI), principale azienda aerospaziale-difensiva israeliana, per il programma AMOS che fornisce componenti e sistemi di ground station ai satelliti israeliani. IAI è società governativa israeliana strategica: nel 2024 i suoi reparti militari hanno generato 5,2 miliardi di euro, producendo intercettori missilistici e sistemi difensivi avanzati.</p>
+<p>La catena di coinvolgimento è quindi: Egicon contribuisce a una capacità militare italiana → quella capacità si integra in un ecosistema tecnologico dove operano anche integratori che collaborano con aziende israeliane della difesa. Non è però documentato che tecnologia Egicon sia trasferita a IAI o impiegata in specifici programmi militari israeliani.</p>
+<p>Thales Alenia Space rimane reference di Egicon nel 2025 e COSMO-SkyMed continua a svilupparsi nel 2026, ma non è provata la continuità del contributo specifico di Egicon.</p>
+<p>La rete industriale che collega Egicon all'ecosistema della difesa israeliana esiste ed è documentata; non è documentato il trasferimento di tecnologia Egicon verso Israele né l'impiego in operazioni israeliane.</p>
+    </section>
+    
+    <section class="document" id="enea-comunicato-informativo-44">
+        <h1>ENEA – Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>ENEA, l'ente di ricerca italiano su energia e tecnologie sostenibili, coordina un progetto europeo di ricerca su carburanti a idrogeno per aviazione civile chiamato ALRIGH2T (2024-2027). Tra i beneficiari di questo progetto finanziato dall'Unione Europea è presente Israel Aerospace Industries (IAI), a cui vanno fondi pubblici europei pari a circa 427.000 euro.</p>
+<p>IAI è la principale azienda aerospaziale governativa israeliana e opera direttamente per il ministero della Difesa e per l'esercito israeliano. Produce droni militari, sistemi di raccolta informazioni e sorveglianza (ISR), radar per operazioni belliche, missili e sistemi d'arma avanzati. Nel 2024, i reparti militari di IAI hanno generato fatturati superiori ai 5 miliardi di euro.</p>
+<p>Il rapporto ENEA-ALRIGH2T-IAI è pluriennale, finanziato pubblicamente e continuo nel 2026. Questo significa che risorse pubbliche europee confluiscono in una società centrale della difesa israeliana, rafforzandone l'ecosistema industriale e tecnologico, anche se il progetto specifico riguarda tecnologie civili di aviazione.</p>
+<p>ENEA non ha contratti diretti con l'esercito israeliano e non è provato che il progetto ALRIGH2T finanzierà armi o operazioni militari specifiche. Tuttavia, IAI utilizza tecnologie e competenze da tutti i suoi progetti per lo sviluppo di capacità militari integrate.</p>
+<p>La documentazione non dimostra che ricerca ENEA rafforzi una specifica capacità bellica israeliana, ma evidenzia che risorse pubbliche europee coordindate da una istituzione italiana sostengono economicamente una società centrale della difesa israeliana.</p>
+    </section>
+    
+    <section class="document" id="fabbrica-italiana-droni-e-israele-comunicato-informativo-45">
+        <h1>Fabbrica Italiana Droni e Israele: comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Fabbrica Italiana Droni è un produttore italiano di sistemi unmanned (droni) e tecnologie di contromisure, con clienti nell'Esercito italiano. La società lavora con Leonardo, il maggior gruppo italiano della difesa, in una relazione il cui valore e continuità non sono pienamente documentati.</p>
+<p>Il nesso con Israele è di natura transitiva. Leonardo controlla Leonardo DRS, che dal 2022 possiede RADA, un'azienda israeliana specializzata in radar tattici utilizzati per la difesa aerea e il counter-UAS (sistemi progettati per neutralizzare i droni nemici). Leonardo inoltre collabora con Elbit Systems, grande società israeliana della difesa, e opera sistemi unmanned israeliani nella Marina Militare italiana.</p>
+<p>Queste connessioni collocano Fabbrica Italiana Droni in una filiera che tocca l'industria militare israeliana, ma il dossier non documenta un trasferimento diretto di tecnologia, denaro o capacità dalla società italiana verso partner o apparati israeliani.</p>
+<p>La relazione tra Fabbrica Italiana Droni e i soggetti israeliani rimane quindi di natura indireta, attraverso Leonardo, e non è provato un coinvolgimento operativo in attività militari israeliane.</p>
+    </section>
+    
+    <section class="document" id="fondazione-democenter-sipe-e-lecosistema-aerospaziale-israeliano-46">
+        <h1>Fondazione Democenter-Sipe e l'ecosistema aerospaziale israeliano</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Fondazione Democenter-Sipe è un ente che promuove innovazione industriale e tecnologica. Tra il 2024 e il 2026 partecipa a SpaceLAB, un progetto europeo per testare e certificare hardware destinato al volo spaziale. Nel progetto figurano Sitael, società italiana specializzata in tecnologie satellitari, e altre imprese europee.</p>
+<p>Sitael è particolarmente rilevante perché collabora con Rafael, grande azienda israeliana della difesa. Insieme sviluppano il sistema MEPS, una tecnologia di propulsione elettrica per satelliti: anziché usare combustibile chimico, i satelliti utilizzano campi elettromagnetici per accelerare ioni e muoversi nello spazio. Questo sistema rende i satelliti più efficienti e durevoli, ed è sostenuto sia dall'Agenzia Spaziale Europea che da quella israeliana.</p>
+<p>Il collegamento di Democenter con Rafael è transitivo: passa attraverso Sitael. Democenter non lavora direttamente con Rafael né fornisce tecnologie direttamente a programmi militari israeliani. Tuttavia, partecipando a SpaceLAB con Sitael, si inserisce in una filiera che confluisce verso l'industria della difesa israeliana.</p>
+<p>Non è provato che i risultati del progetto SpaceLAB siano stati trasferiti a Rafael o utilizzati per rafforzare capacità militari israeliane. Democenter rimane comunque integrata in un'ecosistema di innovazione aerospaziale dove la difesa israeliana è presente e attiva.</p>
+    </section>
+    
+    <section class="document" id="fondazione-e-amaldi-e-laccesso-al-mercato-israeliano-della-difesa-47">
+        <h1>Fondazione E. Amaldi e l'accesso al mercato israeliano della difesa</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>La Fondazione E. Amaldi ha fondato e gestisce Primo Space, un fondo di investimento che seleziona startup e imprese nel settore spaziale e della difesa. Il ruolo della Fondazione è centrale: identifica le aziende promettenti, valuta la loro tecnologia, conduce verifiche e sceglie dove investire il denaro del fondo. Israele è ufficialmente uno dei mercati in cui Primo Space cerca opportunità di investimento, insieme a Europa e Stati Uniti.</p>
+<p>Questa non è una relazione casuale. Significa che la Fondazione ha strutturato un canale istituzionale verso l'industria israeliana della tecnologia e della difesa. Parallelamente, la Fondazione coordina programmi europei di innovazione per la difesa, come EUDIS e CASSINI, che finanziano lo sviluppo di sistemi di sorveglianza tattica, analisi di dati geo-spaziali, droni e sicurezza dello spazio orbitale.</p>
+<p>Tuttavia, il dossier non dimostra che il capitale o le tecnologie individuate da Primo Space in Israele confluiscano nelle strutture militari israeliane. Il collegamento rimane al livello della selezione e dell'accesso al mercato, non della fornitura diretta.</p>
+<p>La Fondazione svolge una funzione di intermediario tecnologico-finanziario verso l'ecosistema israeliano, ma il passaggio specifico dalle aziende individuate all'uso militare operativo non è documentato.</p>
+    </section>
+    
+    <section class="document" id="gter-e-israele-comunicato-informativo-48">
+        <h1>GTER e Israele: comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>GTER è un centro di ricerca che collabora allo sviluppo di tecnologie per la localizzazione globale (GNSS) e la misura dell'orientamento nello spazio (IMU). Queste sono tecnologie "dual-use", utilizzabili sia in ambito civile che militare, per navigazione precisa, sorveglianza e direzione di comandi.</p>
+<p>Stonex, azienda italiana che produce strumentazione per la localizzazione geografica e i sistemi informativi territoriali, commercializza i propri prodotti in Israele attraverso C.S.S. Precise Systems. Secondo fonti pubbliche, C.S.S. dichiara di essere fornitore autorizzato di IAI, Rafael e Elta, tre società israeliane della difesa e dell'aerospazio. Una seconda connessione passa attraverso GeoNumerics, che collabora con GTER e lavora con Mobit, impresa israeliana specializzata in geolocalizzazione via satellite.</p>
+<p>Tuttavia, il dossier non dimostra che i prodotti o le tecnologie sviluppati con GTER siano effettivamente quelli forniti ai clienti militari israeliani. Nel progetto europeo GESTUS (2024–2027), GTER continua a sviluppare tecnologie di sensor fusion, confermando la continuità della ricerca.</p>
+<p>GTER è inserita in una filiera industriale con ramificazioni israeliane documentate, ma senza prova di un trasferimento tecnologico specifico verso apparati militari.</p>
+    </section>
+    
+    <section class="document" id="legor-group-e-la-tecnologia-israeliana-per-componenti-critici-49">
+        <h1>Legor Group e la tecnologia israeliana per componenti critici</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Nel giugno 2026, Legor Group ha formalizzato una partnership strategica con Tritone Technologies, azienda israeliana specializzata nella produzione additiva industriale — la tecnologia che consente di realizzare componenti metalliche complesse attraverso la stampa 3D in metallo.</p>
+<p>Tritone ha sviluppato MoldJet, un processo innovativo che permette di creare stampi e componenti in acciaio, oro, platino e altre leghe con geometrie impossibili da raggiungere con i metodi tradizionali. Questa tecnologia ha applicazioni dichiarate anche nel settore aerospaziale e della difesa: permette di produrre componenti più leggeri, più resistenti e con prestazioni superiori — funzionali, ad esempio, a strutture aerospaziali, sistemi di attuazione e componenti critici per missili o velivoli.</p>
+<p>IAI (Israel Aerospace Industries), la principale azienda israeliana di aerospazio e difesa, ha valutato MoldJet per la produzione di componenti in Inconel, acciaio inossidabile e altri materiali impiegati nei sistemi militari. Legor, operando come partner ufficiale di Tritone, contribuisce allo sviluppo e alla validazione dei materiali utilizzabili nel processo — integrando MoldJet nel proprio hub di manifattura additiva.</p>
+<p>Il collegamento tra Legor e l'industria militare israeliana rimane indiretto, passando attraverso Tritone e IAI. Non è documentato che i materiali o le competenze Legor siano stati effettivamente utilizzati in sistemi militari operativi israeliani.</p>
+    </section>
+    
+    <section class="document" id="merletti-aerospace-50">
+        <h1>Merletti Aerospace</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Merletti Aerospace è un'azienda italiana specializzata in componenti e servizi per l'industria aeronautica. Collabora strutturalmente con Leonardo, il principale contractor della difesa italiano, da almeno gli anni Novanta. Questo rapporto include il trasferimento di know-how tecnologico, processi industriali e qualificazioni, documentate fino al 2023.</p>
+<p>Leonardo fornisce direttamente all'apparato militare israeliano velivoli e servizi critici: 30 jet addestratori M-346 per l'Israeli Air Force, con manutenzione e addestramento continuativo, oltre a elicotteri AW119Kx per il Ministero della Difesa israeliano. Questi aerei sono utilizzati per l'addestramento dei piloti e il trasporto tattico in operazioni militari.</p>
+<p>Merletti, attraverso la sua integrazione nella filiera Leonardo, è quindi strutturalmente collegata a programmi di difesa israeliana. Non è però documentato che Merletti fornisca componenti direttamente all'apparato militare israeliano, né che i suoi prodotti siano impiegati in specifiche operazioni israeliane.</p>
+<p>Nel 2015, Merletti ha partecipato alla fiera aerospaziale e difesa di Gerusalemme, evidenziando il suo interesse commerciale verso il mercato israeliano. Il rapporto rimane transitivo, attraverso Leonardo.</p>
+    </section>
+    
+    <section class="document" id="miprons-comunicato-informativo-51">
+        <h1>MIPRONS - Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>MIPRONS è un'azienda italiana che sviluppa propulsori ad acqua per applicazioni aerospaziali e satellitari. Nel 2022 ha ricevuto 12.000 euro da "Accelerate in Israel", programma pubblico italo-israeliano di supporto alle startup per l'internazionalizzazione. Nel medesimo periodo ha avviato una collaborazione con Thales Alenia Space per sviluppare propulsori destinati ai satelliti e alle manovre orbitali.</p>
+<p>Thales Alenia Space è una joint venture: 67% della francese Thales (grande industriale della difesa) e 33% della italiana Leonardo. Thales ha una collaborazione documentata con IAI, principale azienda israeliana di aerospazio e difesa, per il sistema di controllo dati dell'Heron, un drone israeliano utilizzato per sorveglianza e raccolta di informazioni militari.</p>
+<p>La catena è reale: MIPRONS collabora con Thales, che a sua volta lavora con IAI. Tuttavia, non è dimostrato che la tecnologia MIPRONS sia effettivamente confluita nel drone Heron o in altri sistemi militari israeliani. Brevetti israeliani registrano la presenza della tecnologia MIPRONS in Israele dal 2017, e nel 2026 un ulteriore brevetto è stato concesso, indicando un interesse tecnologico continuativo.</p>
+<p>MIPRONS è però anche integrata nella difesa europea: coordina INNCH2PROP, progetto da 3,98 milioni di euro con benefici espliciti per i sistemi di difesa europei. Il collegamento con l'industria israeliana è transitivo e incompleto: non è ancora dimostrato un trasferimento tecnologico concreto verso sistemi militari israeliani.</p>
+    </section>
+    
+    <section class="document" id="nemea-sistemi-e-israele-cosa-emerge-52">
+        <h1>Nemea Sistemi e Israele: cosa emerge</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Nemea Sistemi è un'azienda italiana specializzata in osservazione terrestre e intelligenza artificiale. Dichiara di collaborare con Leonardo, uno dei principali gruppi italiani della difesa. Questo rapporto commerciale colloca Nemea in una catena che raggiunge l'industria militare israeliana.</p>
+<p>Leonardo controlla RADA, azienda israeliana che produce radar militari destinati direttamente alle Forze Armate israeliane. RADA fornisce i sistemi di protezione aerea a corto raggio, i sistemi di difesa contro droni e le reti di protezione dalle artiglierie utilizzate dall'IDF, incluse le reti attorno a Gaza. Nemea dispone di competenze in osservazione satellitare, tecnologie radar, intelligenza artificiale e infrastrutture cloud: tecnologie adatte sia a scopi civili che militari.</p>
+<p>La connessione non è diretta — Nemea non fornisce tecnologie direttamente alle Forze Armate israeliane — ma passa per una filiera industriale consolidata: Nemea → Leonardo → Leonardo DRS → RADA → IDF.</p>
+<p>Inoltre, Nemea utilizza Amazon Web Services per le proprie infrastrutture cloud. AWS è il fornitore dell'infrastruttura di Nimbus, un programma governativo israeliano che coinvolge il Ministero della Difesa e le Forze Armate; tuttavia non è documentato che i sistemi di Nemea operino effettivamente dentro questo programma.</p>
+<p><strong>Quel che è provato:</strong> la relazione industriale e tecnologica di Nemea con una filiera che alimenta capacità militari israeliane. <strong>Quel che non è provato:</strong> il contributo specifico di Nemea alle operazioni militari israeliane.</p>
+    </section>
+    
+    <section class="document" id="novac-accumulo-energetico-e-il-ponte-verso-lindustria-israeliana-della-difesa-53">
+        <h1>Novac: accumulo energetico e il ponte verso l'industria israeliana della difesa</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Novac ha sviluppato con Leonardo, il gruppo italiano dell'aerospazio e della difesa, un prototipo per integrare supercondensatori — dispositivi che accumulano e rilasciano energia rapidamente — nei droni cargo Flying Basket. L'obiettivo era testare un sistema ibrido batteria-supercapacitore per migliorare le prestazioni operative.</p>
+<p>Leonardo mantiene rapporti militari significativi con Israele. Ha contratti di fornitura valutati a 140 milioni di dollari con Elbit Systems (azienda israeliana della difesa) per il supporto dei 30 aerei addestratori M-346 dell'aeronautica israeliana. Ha inoltre integrato RADA, azienda israeliana di radar e sistemi elettronici, nel suo perimetro industriale e sviluppa rapporti con istituzioni israeliane di innovazione in startup di difesa e intelligence.</p>
+<p>La catena è: Novac → Leonardo → Elbit/RADA/ecosistema difensivo israeliano. Tuttavia, la connessione tra il lavoro di Novac e specifici programmi militari israeliani non è provata. Novac fornisce componenti tecnologici alla filiera spaziale italiana, che a sua volta ha partner israeliani, senza documentazione di una fornitura diretta verso la difesa israeliana.</p>
+<p>La rilevanza è che Novac opera in un ecosistema dove Leonardo, suo partner, ha rapporti strutturati con l'industria militare israeliana. Non è però comprovato che la tecnologia di Novac abbia raggiunto o sostenuto programmi specifici di IDF, Ministero della Difesa israeliano o industria militare israeliana.</p>
+    </section>
+    
+    <section class="document" id="pradelli-giancarlo-c-e-la-filiera-di-leonardo-verso-israele-54">
+        <h1>Pradelli Giancarlo &amp; C. e la filiera di Leonardo verso Israele</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Pradelli Giancarlo &amp; C. è un'azienda meccanica che dal 2000 realizza componenti e lavorazioni industriali per Leonardo, il grande gruppo aerospaziale e della difesa europeo. La relazione è pluridecennale e visibile ancora nel 2026 attraverso la partecipazione alle iniziative industriali di Leonardo.</p>
+<p>Leonardo nel 2010-2014 ha fornito 30 aerei M-346 al Ministero della Difesa israeliano. L'M-346 è un velivolo militare da addestramento avanzato, utilizzato per preparare piloti da caccia. Il supporto logistico e la manutenzione della flotta M-346 israeliana sono affidati a Elbit Systems, la principale azienda israeliana della difesa.</p>
+<p>Leonardo inoltre controlla Leonardo DRS, che a sua volta controlla RADA, società israeliana che produce radar tattici militari — sistemi utilizzati per rilevare e tracciare droni, aeromobili e minacce aeree. Leonardo mantiene quindi una presenza operativa e industriale in Israele.</p>
+<p>La catena è: Pradelli fornisce a Leonardo; Leonardo fornisce aerei da addestramento al Ministero della Difesa israeliano e gestisce partnership industriali con Elbit e RADA. Il collegamento di Pradelli rimane transitivo. Non è identificato alcun componente, ordine o specifico programma di Pradelli che confluisca direttamente nel segmento israeliano della filiera di Leonardo.</p>
+<p>Il dossier smentisce l'idea che Pradelli non abbia alcun legame con la difesa israeliana, ma non prova un rapporto commerciale o tecnico diretto.</p>
+    </section>
+    
+    <section class="document" id="roboverse-reply-comunicato-informativo-55">
+        <h1>Roboverse Reply - Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Roboverse Reply sviluppa tecnologie di automazione e robotica. Dal 2024 al 2026 collabora continuativamente con ELP, una società tedesca specializzata in soluzioni di sicurezza e smaltimento ordigni esplosivi (EOD). Insieme hanno sviluppato sistemi che combinano robot Spot (quadrupedi autonomi), droni, intelligenza artificiale, teleoperazione e sensori avanzati.</p>
+<p>Questi sistemi sono progettati per ricognizione, rilevamento di mine e munizioni, e missioni ad alto rischio in zone ostili. Non si tratta di tecnologia "dual use" in senso teorico: le capacità sono specificamente pensate per operazioni militari e di sicurezza critica.</p>
+<p>ELP opera inoltre con Persistent Systems, fornitore di comunicazioni tattiche per eserciti. Bynet, azienda israeliana specializzata in sistemi di comunicazione e comando-controllo (C4I — "Command, Control, Communications, Computers and Intelligence"), ha una partnership con Persistent orientata alle esigenze dell'IDF (esercito israeliano) e dell'industria della difesa israeliana.</p>
+<p>La catena di coinvolgimento è: Roboverse fornisce a ELP; ELP utilizza comunicazioni di Persistent Systems; Persistent ha partnership con Bynet (israeliana); Bynet è collegata all'IDF. Tuttavia, il passaggio effettivo della tecnologia Roboverse lungo questa catena non è documentato. È documentata la relazione Roboverse-Boston Dynamics, ma non un trasferimento verso Percepto, azienda israeliana che utilizza robot Spot per piattaforme autonome.</p>
+<p>Il dossier mostra un coinvolgimento industriale e tecnologico alto nel settore della sicurezza e difesa, ma non prova un sostegno diretto all'apparato militare israeliano.</p>
+    </section>
+    
+    <section class="document" id="serinar-tecnopolo-di-forlì-cesena-56">
+        <h1>Ser.In.Ar. – Tecnopolo di Forlì-Cesena</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Ser.In.Ar. gestisce il Tecnopolo di Forlì-Cesena, un centro di ricerca e sviluppo aerospaziale. È partner nel progetto SMAL-SAT (2024–2026), finanziato con 500mila euro di fondi pubblici, che sviluppa nanosatelliti: piccoli satelliti capaci di raccogliere dati e immagini dalla Terra per scopi di ricerca, commerciali e di sicurezza.</p>
+<p>Il partner tecnico è NPC SPACEMIND, società aerospaziale italiana. NPC è anche partner ufficiale di Elbit Systems, il principale contractor della difesa israeliana, nel progetto HTCNS finanziato dall'accordo industriale Italia–Israele 2021. Elbit Systems fornisce droni, sistemi di comando e controllo militare, comunicazioni e munizioni all'esercito israeliano (IDF) e al Ministero della Difesa.</p>
+<p>La catena di coinvolgimento è: Ser.In.Ar. → SMAL-SAT → NPC → Elbit → apparato militare israeliano. Tuttavia, non è documentato che le tecnologie sviluppate nel progetto SMAL-SAT siano trasferite a Elbit o utilizzate negli apparati militari israeliani. Il collegamento rimane di filiera industriale, attraverso NPC.</p>
+<p>Studiomapp, partner tecnico di SMAL-SAT specializzato in analisi di immagini satellitari, è riconosciuto da strutture NATO e intrattiene rapporti con il Ministero della Difesa italiano.</p>
+    </section>
+    
+    <section class="document" id="spaceflux-comunicato-informativo-57">
+        <h1>Spaceflux - Comunicato informativo</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Spaceflux è una società italiana che produce osservatori spaziali. Nel 2026 è stata selezionata da MDA Space, grande gruppo canadese della tecnologia spaziale, per fornire tre osservatori destinati alle forze armate canadesi.</p>
+<p>MDA Space ha acquisito nel 2025 SatixFy, una società israeliana operativa nel settore aerospaziale e della difesa. Con questa acquisizione, MDA ha integrato nella propria struttura sia la tecnologia che il personale israeliano. Nel 2012, la precedente MDA aveva firmato con IAI — principale azienda israeliana di aerospazio e difesa — un contratto di oltre 100 milioni di dollari canadesi per il satellite AMOS-6.</p>
+<p>La catena di coinvolgimento è dunque: Spaceflux fornisce a MDA Space; MDA Space incorpora tecnologia israeliana (SatixFy) e mantiene rapporti documentati con IAI, che dichiara partnership strategica con l'IDF (esercito israeliano) e il ministero della difesa israeliano. Tuttavia, il trasferimento diretto di tecnologia da Spaceflux verso Israele non è documentato. Il collegamento è transitivo: passa attraverso MDA Space e la sua integrazione della tecnologia israeliana.</p>
+<p>Spaceflux è documentatamente integrata in infrastrutture militari occidentali dirette: alimenta BOREALIS, sistema britannico di consapevolezza dello spazio e comando-controllo. Il suo telescopio Nyx Alpha, operativo dal 2024 a Cipro, fornisce sorveglianza dello spazio alla difesa britannica. Questi legami militari diretti sono ben documentati, mentre il trasferimento a Israele non lo è.</p>
+    </section>
+    
+    <section class="document" id="storm-reply-58">
+        <h1>Storm Reply</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 3/5</strong></p>
+<p>Storm Reply è una società italiana specializzata in consulenza tecnologica, cloud computing e cybersecurity. Dal 2021 al 2023, ha mantenuto una partnership commerciale con Reblaze, un'azienda israeliana che fornisce sicurezza web — protezione dai cyberattacchi DDoS, gestione del traffico malevolo, protezione delle applicazioni. Questi servizi proteggono i siti e i sistemi online da attacchi informatici coordinati.</p>
+<p>Reblaze è documentata come fornitore di sicurezza per IAI (Israel Aerospace Industries) e Rafael Advanced Defense Systems, due delle principali aziende della difesa israeliana che producono aerei da combattimento, droni, sistemi di comando e munizioni. Questo significa che la tecnologia di Reblaze supporta infrastrutture critiche e operazionali della difesa israeliana.</p>
+<p>La catena è: Storm Reply → Reblaze → IAI/Rafael → apparato militare israeliano. Storm Reply non fornisce direttamente servizi di difesa israeliana, ma è integrata in una filiera tecnologica che li supporta. Il rapporto è transitivo e commerciale.</p>
+<p>Un secondo collegamento, più debole, riguarda AWS, il cloud provider del progetto Nimbus israeliano (che coinvolge il Ministero della Difesa e l'IDF). Storm Reply è partner AWS, ma non è provato il suo coinvolgimento nei servizi di difesa mediante Nimbus.</p>
+    </section>
+    
+    <section class="document" id="ariespace-osservazione-della-terra-e-la-collaborazione-bilaterale-con-israele-59">
+        <h1>Ariespace: osservazione della Terra e la collaborazione bilaterale con Israele</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>Ariespace ha collaborato con l'Università di Haifa (università israeliana) nel programma LCIS (2017–2019), un progetto di ricerca e sviluppo bilaterale tra Italia e Israele finanziato da entrambi i governi. Il progetto ha sviluppato un sistema di supporto all'irrigazione basato su osservazione della Terra da satellite, sensori, e modellistica applicata in Israele.</p>
+<p>La collaborazione è concreta e non accademica: è stata finanziata dalle autorità israeliane e italiana, e ha previsto testing e implementazione sul territorio israeliano. Le tecnologie di earth observation sono potenzialmente dual-use, poiché i dati satellitari e gli algoritmi di riconoscimento hanno applicazioni civili e militari.</p>
+<p>Ariespace opera inoltre nell'ecosistema SAM (Società Aerospaziale Mediterranea) insieme ad aziende come MAPSAT, che documenta capacità di defesa e tecnologie sviluppate per requisiti militari. Tuttavia, questa vicinanza industriale non comporta automaticamente che Ariespace abbia attività militari o che abbia fornito verso Israele.</p>
+<p>Non è documentato che la tecnologia sviluppata da Ariespace nel progetto LCIS sia stata impiegata da IDF, Ministero della Difesa o industria militare israeliana. Il rapporto rimane su piano di collaborazione scientifica e tecnologica, pur essendo concreto e finanziato ufficialmente da entrambi i governi.</p>
+    </section>
+    
+    <section class="document" id="concept-reply-lintelligenza-artificiale-e-il-collegamento-transitivo-con-la-difesa-israeliana-60">
+        <h1>Concept Reply, l'intelligenza artificiale e il collegamento transitivo con la difesa israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>Concept Reply è una società di consulenza e sviluppo software specializzata in intelligenza artificiale, computer vision, deep learning e cloud computing. È partner certificato di AWS, la piattaforma cloud di Amazon, e sviluppa soluzioni su questa infrastruttura. Ha inoltre realizzato un sistema di automazione per il testing di software destinato a un costruttore importante di navi militari.</p>
+<p>AWS è uno dei provider principali di Project Nimbus, il programma di trasformazione digitale del governo israeliano che coinvolge ufficialmente il ministero della Difesa e l'esercito israeliano. Questo significa che le capacità di Concept Reply — intelligenza artificiale, elaborazione delle immagini, learning automatico, cloud ibrido — sono tecnologie che, attraverso AWS, raggiungono direttamente le infrastrutture governative e militari israeliane.</p>
+<p>Tuttavia, non esiste documentazione che Concept Reply abbia fornito workload specifici o soluzioni a Project Nimbus. Non è provato nemmeno che le sue tecnologie siano reimpiegate in operazioni militari israeliane. Il collegamento è transitivo: Concept Reply ha competenze che potrebbero essere applicate, ma il passaggio da questa potenzialità a un uso effettivo non è attestato.</p>
+<p>Concept Reply è un operatore tecnologico dual-use inserito in un ecosistema globale, AWS, che alimenta direttamente la difesa israeliana. Il rapporto rimane però al livello della disponibilità di tecnologie, non della fornitura diretta.</p>
+    </section>
+    
+    <section class="document" id="dast-droni-commerciali-e-il-collegamento-indiretto-con-lidf-61">
+        <h1>DAST: droni commerciali e il collegamento indiretto con l'IDF</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>DAST (Dipartimento Aerospazio e Tecnologie di Confesercenti) rappresenta il comparto italiano dei sistemi di droni (UAS). Southdrone, una delle imprese nel suo network, è rivenditore ufficiale di DJI, il principale produttore mondiale cinese di droni commerciali e professionali.</p>
+<p>DJI produce droni che sono stati utilizzati da apparati israeliani: fonti documentano l'impiego di sistemi DJI dalla Israel Police, e impieghi militari dell'IDF a Gaza per ricognizione e acquisizione di bersagli. DJI rappresenta quindi una tecnologia di drones con funzioni civili e militari.</p>
+<p>Il collegamento tra DAST e questi utilizzi è però indiretto e non provato: DAST non è produttore di droni né rivenditore diretto verso Israele. DAST è un organismo associativo e istituzionale del comparto UAS italiano dedicato a rappresentanza, formazione e standardizzazione. Non risulta che Southdrone abbia venduto droni a entità israeliane, né che DAST abbia orchestrato tale transazione.</p>
+<p>La rilevanza della connessione è che una tecnologia presente nella filiera rappresentata da DAST è stata impiegata da apparati militari israeliani. Tuttavia, questo non equivale a un ruolo di DAST nella fornitura, né a una scelta consapevole dell'organismo di supportare applicazioni militari israeliane. Il nesso rimane puramente indiretto e commerciale.</p>
+    </section>
+    
+    <section class="document" id="gvm-assistance-e-israele-cosa-emerge-62">
+        <h1>GVM Assistance e Israele: cosa emerge</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>GVM Assistance è un'azienda italiana che fornisce servizi sanitari e telemedici. A livello di gruppo, GVM ha una filiale chiamata Eurosets che opera nel settore biomedicale da oltre 25 anni. Eurosets è rappresentata in Israele da SysteMedic, distributore di tecnologie mediche. Questa relazione commerciale è attiva ancora nel 2025-26, con contratti pubblici israeliani fino al 2030-31.</p>
+<p>Si tratta di una filiera commerciale reale e continuativa nel settore sanitario civile, non militare. Non è documentato che le tecnologie mediche di Eurosets/SysteMedic alimentino forze armate o strutture di difesa israeliane.</p>
+<p>Separatamente, GVM Assistance ha fornito servizi di telemedicina e telemonitoraggio per Ax-3, una missione spaziale coordinata dalla Aeronautica Militare italiana e dal Ministero della Difesa. Questo dimostra che GVM Assistance ha competenze tecnologiche mediche impiegate in contesti militari o militari-adiacenti, anche se civili.</p>
+<p>Infine, il gruppo di GVM ha collaborazioni con Axiom, società spaziale commerciale che ha relazioni documentate con programmi israeliani. Tuttavia, il dossier non prova che la tecnologia di GVM sia stata trasferita verso questi programmi.</p>
+<p><strong>Quel che è provato:</strong> una relazione commerciale di lungo termine del gruppo GVM con il mercato sanitario israeliano, e competenze mediche impiegate in contesti military-adjacent in Italia. <strong>Quel che non è provato:</strong> il contributo di GVM Assistance all'apparato militare israeliano.</p>
+    </section>
+    
+    <section class="document" id="inaf-e-la-ricerca-spaziale-attraverso-partner-israeliani-collegati-alla-difesa-63">
+        <h1>INAF e la ricerca spaziale attraverso partner israeliani collegati alla difesa</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>L'Istituto Nazionale di Astrofisica italiano è coinvolto in tre progetti spaziali internazionali che includono ricercatori israeliani. In due di questi — ASA-TGW e SOXS — collabora direttamente con il Weizmann Institute of Science, un prestigioso centro di ricerca israeliano. Nel terzo progetto, QUVIK approvato nel 2025, partecipa allo sviluppo di un telescopio spaziale che integra un rivelatore costruito al Technion, l'università tecnologica israeliana.</p>
+<p>Il Technion lavora direttamente con IAI, la grande azienda israeliana che produce aerei da combattimento, satelliti e sistemi di difesa. Il Weizmann Institute collabora con il ministero della Difesa israeliano e con aziende come Elbit, Elta e Rafael, tutte grandi produttori di equipaggiamenti militari e di intelligence.</p>
+<p>L'INAF non è un fornitore militare. È tuttavia strutturalmente inserita in una rete scientifica israeliana dove ogni nodo ha documentati legami con l'industria e l'apparato difensivo. Il contributo italiano al telescopio spaziale QUVIK è pienamente scientifico, ma passa attraverso istituzioni che nel loro insieme alimentano le capacità tecnologiche della difesa israeliana.</p>
+<p>Il passaggio da questa collaborazione scientifica a un beneficio operativo per l'esercito israeliano non è provato. Rimane però una realtà che la ricerca italiana in astrofisica s'intreccia con l'ecosistema tecnologico-militare israeliano.</p>
+    </section>
+    
+    <section class="document" id="latitudo-40-e-israele-cosa-emerge-64">
+        <h1>Latitudo 40 e Israele: cosa emerge</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>Latitudo 40 è un'azienda italiana che opera nel settore dell'osservazione terrestre e analisi dati geografici. Dal 2025 collabora con Planet, società americana che gestisce una costellazione di satelliti e fornisce immagini della Terra a clienti civili, governativi e militari in tutto il mondo.</p>
+<p>Attraverso questa partnership, Latitudo 40 integra le immagini satellitari di Planet nella propria piattaforma EarthDataPlace, utilizzata per accedere, acquistare e analizzare dati geografici. Planet vende queste immagini anche ai governi, ai dipartimenti di difesa e alle agenzie di intelligence di vari paesi. Le immagini satellitari di Planet sono state utilizzate da analisti per documentare attività militari israeliane a Gaza, ma non è provato che siano passate attraverso Latitudo 40.</p>
+<p>Latitudo 40 si colloca quindi in una filiera tecnologica di osservazione terrestre e intelligenza artificiale con rilevanza militare e di intelligence, ma il dossier non dimostra che la sua piattaforma contribuisca direttamente alle operazioni militari israeliane.</p>
+<p>L'azienda è inoltre integrata in IRIDE, infrastruttura italiana di osservazione satellitare che fornisce servizi di sicurezza pubblica, e partecipa a MEDAIGENCY, un progetto di intelligenza artificiale per la gestione delle emergenze con partner in Libano e Palestina.</p>
+<p><strong>Quel che è provato:</strong> l'integrazione di Latitudo 40 in una filiera tecnologica con rilevanza military e intelligence. <strong>Quel che non è provato:</strong> il trasferimento di tecnologia o servizi verso l'apparato militare israeliano.</p>
+    </section>
+    
+    <section class="document" id="tss-innovationsprojekte-e-la-catena-di-approvvigionamento-difensiva-65">
+        <h1>TSS Innovationsprojekte e la catena di approvvigionamento difensiva</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 2/5</strong></p>
+<p>TSS Innovationsprojekte è una società svizzera, spin-off di Technosprings — azienda italiana specializzata nella produzione di componenti avanzate per aerospazio e settori critici. Entrambe le aziende si occupano di attuatori SMA (leghe a memoria di forma) e sistemi di rilascio e movimentazione ad alta affidabilità: componenti che permettono di azionare meccanismi critici su velivoli, satelliti, sistemi di lancio e piattaforme militari — ad esempio l'apertura di pannelli solari, il rilascio di carichi o il dispiegamento di antenne.</p>
+<p>Technosprings ha collaborato con SELEX ES, grande contractor europeo della difesa, in programmi di ricerca aerospaziale. SELEX ES, a sua volta, ha rapporti documentati con Elbit Systems — principale azienda israeliana della difesa — e fornisce componenti e sistemi ai programmi di difesa europei e internazionali. TSS e Technosprings figurano inoltre in documenti legati all'ambito armasuisse (difesa svizzera) e a reti di cooperazione con agenzie di intelligence e ministeri della difesa.</p>
+<p>Il dossier mostra che la filiera tecnologica è rilevante per la difesa: i componenti sviluppati hanno applicazioni critiche in ambito militare. Tuttavia, il collegamento specifico tra TSS/Technosprings e l'apparato militare israeliano rimane non provato. La catena di coinvolgimento potrebbe essere TSS → SELEX ES → Elbit → Israele, ma non è documentato un contratto diretto o un impiego effettivo di tecnologia TSS nei sistemi israeliani.</p>
+    </section>
+    
+    <section class="document" id="hera-e-i-rapporti-commerciali-con-lindustria-israeliana-66">
+        <h1>Hera e i rapporti commerciali con l'industria israeliana</h1>
+<p><strong>Grado di coinvolgimento nella filiera militare e/o nei rapporti con Israele: 1/5</strong></p>
+<p>Hera è il principale gestore di infrastrutture idriche italiane, con reti di acquedotto che superano i 27mila chilometri. Dal 2016 ha adottato la tecnologia di Utilis, società israeliana oggi nota come ASTERRA, per individuare perdite sulla propria rete idrica utilizzando immagini satellitari ad alta risoluzione.</p>
+<p>ASTERRA analizza dati da satelliti civili (in questo caso il satellite giapponese ALOS-2) per rilevare infiltrazioni d'acqua nel terreno, permettendo interventi mirati di riparazione. È una tecnologia che rappresenta una potenziale applicazione dual-use: i dati satellitari e i sistemi di analisi hanno sia usi civili che militari. ASTERRA è part dell'industria spaziale israeliana e opera nel remote sensing, cioè nell'interpretazione di immagini da satellite.</p>
+<p>Hera ha inoltre sperimentato una tecnologia di Curapipe, azienda israeliana di Ashkelon, per riparare condotte senza scavo, coinvolgendo nel progetto pilota la Jerusalem Water Utility e testando il prototipo presso l'Eilat-Ashkelon Pipeline Company.</p>
+<p>Il rapporto commerciale tra Hera e queste imprese israeliane è documentato e significativo. Tuttavia, non emerge prova di un coinvolgimento di Hera in programmi militari, di intelligence o di difesa israeliani. Il collegamento rimane economico-industriale, senza evidenza di una catena funzionale verso apparati militari.</p>
+    </section>
+    
+    </main>
+
+</div>
+
+</body>
+</html>
